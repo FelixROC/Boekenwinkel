@@ -8,5 +8,9 @@ namespace ClassLibraryBoekenWinkel
 {
     public class Boeken
     {
+        public Boeken()
+        {
+
+        }
     }
 }
