@@ -8,5 +8,6 @@ namespace ClassLibraryBoekenWinkel
 {
     public class Afmetingen
     {
+
     }
 }
