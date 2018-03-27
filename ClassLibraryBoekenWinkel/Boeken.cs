@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
 {
-    public class Boeken
+    public class Boeken : Bestelling
     {
         public Boeken()
         {

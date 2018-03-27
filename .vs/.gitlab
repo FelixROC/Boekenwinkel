@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 2104810,
+    "Username": "lhhamming",
+    "Name": "luuk hamming",
+    "Email": "luuk.hamming@gmail.com",
+    "AvatarUrl": "https://secure.gravatar.com/avatar/25e9dc246c9704beeab367e1c2e3ca33?s=80&d=identicon",
+    "PrivateToken": "246167aa0e89f0a2e44bb9a65ee464f17f1d01455e7996785ff5517a81d7406f",
+    "Host": "https://gitlab.com",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 3
+  }
+}

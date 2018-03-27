@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
 {
-    class Tijdschriften
+    public class Tijdschriften : Bestelling
     {
+
     }
 }
