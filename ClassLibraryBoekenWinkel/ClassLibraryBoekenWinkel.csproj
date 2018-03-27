@@ -45,6 +45,7 @@
     <Compile Include="Boeken.cs" />
     <Compile Include="BoekenWinkel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publicatie.cs" />
     <Compile Include="Tijdschriften.cs" />
   </ItemGroup>
   <ItemGroup>
