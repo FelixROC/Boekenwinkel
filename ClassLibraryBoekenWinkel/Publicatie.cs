@@ -3,15 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibraryBoekenWinkel;
 
 namespace ClassLibraryBoekenWinkel
 {
     public abstract class Publicatie
     {
+        #region Definitions
         private string titel;
         private string auteur;
-        private string taal;
+        private int gewicht;
+        private decimal prijs;
+        private Enum_Taal taal;
+        private Afmetingen afmetingen;
+        #endregion
 
+        #region Getter and Setter for definitions
         public string Titel
         {
             get
@@ -38,7 +45,33 @@ namespace ClassLibraryBoekenWinkel
             }
         }
 
-        public string Taal
+        public int Gewicht
+        {
+            get
+            {
+                return gewicht;
+            }
+
+            set
+            {
+                gewicht = value;
+            }
+        }
+
+        public decimal Prijs
+        {
+            get
+            {
+                return prijs;
+            }
+
+            set
+            {
+                prijs = value;
+            }
+        }
+
+        public Enum_Taal Taal
         {
             get
             {
@@ -51,6 +84,18 @@ namespace ClassLibraryBoekenWinkel
             }
         }
 
+        public Afmetingen Afmetingen
+        {
+            get
+            {
+                return afmetingen;
+            }
 
+            set
+            {
+                afmetingen = value;
+            }
+        } 
+        #endregion
     }
 }
