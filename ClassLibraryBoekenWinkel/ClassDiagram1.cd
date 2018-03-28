@@ -14,25 +14,11 @@
       <FileName>Bestellingen.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ClassLibraryBoekenWinkel.Boeken" Collapsed="true">
+  <Class Name="ClassLibraryBoekenWinkel.BoekenWinkel">
     <Position X="4.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Boeken.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ClassLibraryBoekenWinkel.BoekenWinkel" Collapsed="true">
-    <Position X="6" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>QAAAAQACAAQAQAAAAABAgABIAAIAgQACiIAQAAAAAAA=</HashCode>
       <FileName>BoekenWinkel.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ClassLibraryBoekenWinkel.Tijdschriften" Collapsed="true">
-    <Position X="7.75" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Tijdschriften.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
