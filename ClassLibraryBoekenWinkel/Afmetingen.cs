@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
 {
-    public class Afmetingen
+    class Afmeting
     {
+        public int Lengte { get; set; }
+
+        public int Breedte { get; set; }
+
+        public int Hoogte { get; set; }
+        public Afmeting(int lengte, int breedte, int hoogte)
+        {
+
+        }
+
 
     }
 }
