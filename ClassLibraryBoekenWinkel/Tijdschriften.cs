@@ -25,9 +25,9 @@ namespace ClassLibraryBoekenWinkel
 
         }     
 
-        public void ToString()
+        public override string ToString()
         {
-            string<override>
+            
         }
 }
 }

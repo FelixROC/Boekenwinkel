@@ -47,29 +47,29 @@ namespace ClassLibraryBoekenWinkel
 
         }
 
-        public void Toevoegen(_order:Order)
+        public void Toevoegen(Order _order)
         {
 
         }
 
-        public void Verwijderen(_order:Order)
+        public void Verwijderen(Order _order)
         {
 
         }
 
-        public void Verwijderen(_index:int)
+        public void Verwijderen( int _index)
         {
 
         }
 
         public override string ToString()
         {
-
+            return base.ToString();
         }
 
-        public string PrintOrderOpDatum(_datum:DateTime)
+        public string PrintOrderOpDatum(DateTime _datum)
         {
-
+            return _datum;
         } 
         #endregion
     }

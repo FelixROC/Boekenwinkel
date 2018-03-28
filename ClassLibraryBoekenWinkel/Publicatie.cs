@@ -10,12 +10,12 @@ namespace ClassLibraryBoekenWinkel
     public abstract class Publicatie
     {
         #region Definitions
-        private string titel;
+        public string titel;
         private string auteur;
         private int gewicht;
         private decimal prijs;
         private Enum_Taal taal;
-        private Afmetingen afmetingen;
+        private Afmeting afmetingen;
         #endregion
 
         #region Getter and Setter for definitions
@@ -84,7 +84,7 @@ namespace ClassLibraryBoekenWinkel
             }
         }
 
-        public Afmetingen Afmetingen
+        public Afmeting Afmetingen
         {
             get
             {
@@ -95,6 +95,16 @@ namespace ClassLibraryBoekenWinkel
             {
                 afmetingen = value;
             }
+        }
+        #endregion
+
+
+        #region Methods
+        public abstract void Boek(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs);
+
+        public override string ToString()
+        {
+            return base.ToString();
         } 
         #endregion
     }

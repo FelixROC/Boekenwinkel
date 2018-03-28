@@ -15,15 +15,15 @@ namespace ClassLibraryBoekenWinkel
         private string taal;
         private decimal afmetingenl;
         private decimal gewicht;
-        private int iSSN;
+        private int iSBN;
         private decimal prijs;
         private int bestelAantal;
-        private DateTime bestelDag; 
+        private DateTime bestelDag;
         #endregion
 
-        public string Boeken(_druk:string, _ISBN:string, _maximumAantal:int, _minimumaantal:int)
+        public override void Boek( string _titel, string _auteur , Enum_Taal _taal , Afmeting _afmetingen, int _gewicht, decimal _prijs)
         {
-
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using System.Text;  
 using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
@@ -63,30 +63,25 @@ namespace ClassLibraryBoekenWinkel
 
         }
 
-        public void Toevoegen(_order:string)
+        public void Toevoegen(string _order)
         {
 
         }
 
-        public void Verwijderen(_order:string)
+        public void Verwijderen(string _order)
         {
 
         }
 
-        public void Verwijderen(_index:string)
-        {
-
-        }
-
-        public void Verwijderen(_index:int)
+        public void Verwijderen(int _index)
         {
 
         }
 
         public override string ToString()
         {
-
-        } 
+            return base.ToString();
+        }
         #endregion
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
 {
-    class Afmeting
+    public class Afmeting
     {
         public int Lengte { get; set; }
 
