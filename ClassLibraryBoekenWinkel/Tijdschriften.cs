@@ -6,8 +6,28 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
 {
-    public class Tijdschriften : Bestelling
+    public class Tijdschriften : Publicatie
     {
+        #region Definitions
+        private string titel;
+        private string auteur;
+        private DateTime dagVanUitifte;
+        private string taal;
+        private decimal afmetingenl;
+        private decimal gewicht;
+        private int iSSN;
+        private decimal prijs;
+        private int bestelAantal;
+        private DateTime bestelDag;
+        #endregion
+        public Tijdschriften(string ISSN, int AantalTijdschriftenBestellen, DayOfWeek Besteldag, DayOfWeek Publicatiedag)
+        {
 
-    }
+        }     
+
+        public void ToString()
+        {
+            string<override>
+        }
+}
 }
