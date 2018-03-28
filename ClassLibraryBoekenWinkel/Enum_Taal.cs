@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
 {
-    public class Bestelling
+    public class Enum_Taal
     {
+
     }
 }

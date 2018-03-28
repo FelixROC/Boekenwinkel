@@ -6,9 +6,22 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
 {
-    public class Boeken
+    public class Boeken : Publicatie
     {
-        public Boeken()
+        #region Definitions
+        private string titel;
+        private string auteur;
+        private DateTime dagVanUitifte;
+        private string taal;
+        private decimal afmetingenl;
+        private decimal gewicht;
+        private int iSSN;
+        private decimal prijs;
+        private int bestelAantal;
+        private DateTime bestelDag; 
+        #endregion
+
+        public string Boeken(_druk:string, _ISBN:string, _maximumAantal:int, _minimumaantal:int)
         {
 
         }

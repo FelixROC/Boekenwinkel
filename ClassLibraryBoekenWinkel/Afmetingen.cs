@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
 {
-    public class Bestelling
+    public class Afmetingen
     {
+
     }
 }
