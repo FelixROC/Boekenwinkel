@@ -28,13 +28,6 @@
       <FileName>Afmetingen.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ClassLibraryBoekenWinkel.Boeken" Collapsed="true">
-    <Position X="4.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>ACABAAAAAAQAACBAAAAAAAIgAAAAAAAAABAAAAEABgA=</HashCode>
-      <FileName>Boeken.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="ClassLibraryBoekenWinkel.Enum_Taal" Collapsed="true">
     <Position X="2.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
@@ -76,6 +69,13 @@
     <TypeIdentifier>
       <HashCode>ACABAAAAAAQAACAEAAAAAAIgAAAAAAAAABAAAAEABgA=</HashCode>
       <FileName>Tijdschriften.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryBoekenWinkel.Boeken" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAQAACBAAAAAAAIgAAAAAAAAABAAAAEABgA=</HashCode>
+      <FileName>Boeken.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
