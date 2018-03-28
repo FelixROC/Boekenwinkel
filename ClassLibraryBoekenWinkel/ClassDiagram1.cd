@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="ClassLibraryBoekenWinkel.Bestelling" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="2.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Bestelling.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ClassLibraryBoekenWinkel.Bestellingen" Collapsed="true">
+  <Class Name="ClassLibraryBoekenWinkel.Bestellingen">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -15,10 +15,67 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibraryBoekenWinkel.BoekenWinkel">
-    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAQACAAQAQAAAAABAgABIAAIAgQACiIAQAAAAAAA=</HashCode>
       <FileName>BoekenWinkel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryBoekenWinkel.Afmeting" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Afmetingen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryBoekenWinkel.Boeken" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAAAAAQAACBAAAAAAAIgAAAAAAAAABAAAAEABgA=</HashCode>
+      <FileName>Boeken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryBoekenWinkel.Enum_Taal" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enum_Taal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryBoekenWinkel.Order" Collapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAACEAAAAAAAAAAAAgAAAAgEQAAABEAA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryBoekenWinkel.OrderItems" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAAAAAAAkAAAAIAAAAEAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OrderItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryBoekenWinkel.Publicatie" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAQAAABEAAAAAAAgAAAAIAAAABAGAAAQBgA=</HashCode>
+      <FileName>Publicatie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryBoekenWinkel.Tijdschriften" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="ClassLibraryBoekenWinkel.Publicatie" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="2.312" />
+        <Point X="5.25" Y="2.51" />
+        <Point X="5.125" Y="2.51" />
+        <Point X="5.125" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ACABAAAAAAQAACAEAAAAAAIgAAAAAAAAABAAAAEABgA=</HashCode>
+      <FileName>Tijdschriften.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
