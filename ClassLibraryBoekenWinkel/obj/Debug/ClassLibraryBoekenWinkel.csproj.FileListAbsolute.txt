@@ -7,3 +7,5 @@ C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\ClassLibraryBoekenWinkel\ob
 C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\ClassLibraryBoekenWinkel\obj\Debug\ClassLibraryBoekenWinkel.csproj.CoreCompileInputs.cache
 C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\ClassLibraryBoekenWinkel\obj\Debug\ClassLibraryBoekenWinkel.dll
 C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\ClassLibraryBoekenWinkel\obj\Debug\ClassLibraryBoekenWinkel.pdb
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\ClassLibraryBoekenWinkel\bin\Debug\ClassLibraryBoekenWinkel.dll
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\ClassLibraryBoekenWinkel\bin\Debug\ClassLibraryBoekenWinkel.pdb
