@@ -6,24 +6,31 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
 {
-    public class Tijdschriften : Publicatie
+    public class Boek : Publicatie
     {
         #region Definitions
         private string titel;
         private string auteur;
-        private DateTime dagVanUitifte;
-        private string taal;
-        private decimal afmetingenl;
+        private Enum_Taal taal;
+        private Afmeting afmetingen;
         private decimal gewicht;
-        private int iSSN;
-        private decimal prijs;
-        private int bestelAantal;
-        private DateTime bestelDag;
+        private string druk; 
+        private int iSBN;
+        private int Miniumaantal;
+        private int Voorraad;
+        private int Maxiumaantal;
         #endregion
-        public Tijdschriften(string ISSN, int AantalTijdschriftenBestellen, DayOfWeek Besteldag, DayOfWeek Publicatiedag)
-        {
 
+        #region Methods
+        public Boek(string titel, string druk, int iSBN, int miniumaantal, int maxiumaantal)
+        {
+            this.titel = titel;
+            this.druk = druk;
+            this.iSBN = iSBN;
+            Miniumaantal = miniumaantal;
+            Maxiumaantal = maxiumaantal;
         }
+
         public override void publicatie(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs)
         {
             throw new NotImplementedException();
@@ -33,5 +40,6 @@ namespace ClassLibraryBoekenWinkel
         {
             return base.ToString();
         }
+        #endregion
     }
 }

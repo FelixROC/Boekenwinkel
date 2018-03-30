@@ -46,7 +46,7 @@ namespace ClassLibraryBoekenWinkel
             throw new System.NotImplementedException();
         }
 
-        public void Niewboek(Boeken _objBoek)
+        public void Niewboek(Boek _objBoek)
         {
             throw new System.NotImplementedException();
         }
@@ -56,17 +56,17 @@ namespace ClassLibraryBoekenWinkel
             throw new System.NotImplementedException();
         }
 
-        public void NieuwTijdschrift(Tijdschriften _objTijdschrift)
+        public void NieuwTijdschrift(Tijdschrift _objTijdschrift)
         {
             throw new System.NotImplementedException();
         }
 
-        public void VerwijderBoek(Boeken _objBoek)
+        public void VerwijderBoek(Boek _objBoek)
         {
             throw new System.NotImplementedException();
         }
 
-        public void VerwijderTijdschrift(Tijdschriften _objTijdschift)
+        public void VerwijderTijdschrift(Tijdschrift _objTijdschift)
         {
             throw new System.NotImplementedException();
         }

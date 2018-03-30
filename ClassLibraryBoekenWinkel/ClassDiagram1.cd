@@ -52,7 +52,7 @@
       <Property Name="Afmetingen" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="ClassLibraryBoekenWinkel.Tijdschriften" Collapsed="true">
+  <Class Name="ClassLibraryBoekenWinkel.Tijdschrift" Collapsed="true">
     <Position X="7.5" Y="4" Width="1.5" />
     <InheritanceLine Type="ClassLibraryBoekenWinkel.Publicatie" FixedFromPoint="true" FixedToPoint="true">
       <Path>
@@ -64,10 +64,10 @@
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>ACABAAAAAAQAACAEAAAAAAYgAAAAAAAAABAAAAEABgA=</HashCode>
-      <FileName>Tijdschriften.cs</FileName>
+      <FileName>Tijdschrift.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ClassLibraryBoekenWinkel.Boeken" Collapsed="true">
+  <Class Name="ClassLibraryBoekenWinkel.Boek" Collapsed="true">
     <Position X="4.75" Y="4" Width="1.5" />
     <InheritanceLine Type="ClassLibraryBoekenWinkel.Publicatie" FixedFromPoint="true" FixedToPoint="true">
       <Path>
@@ -79,7 +79,7 @@
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAABAACAAAQAAIAkAAAAAAQAAAAAAAAAABAQAAAABgA=</HashCode>
-      <FileName>Boeken.cs</FileName>
+      <FileName>Boek.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
