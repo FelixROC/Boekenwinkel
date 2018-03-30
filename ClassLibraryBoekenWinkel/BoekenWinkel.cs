@@ -8,28 +8,35 @@ namespace ClassLibraryBoekenWinkel
 {
     class BoekenWinkel
     {
-        
+        #region Defintions
+        private string contactinformatie;
+        private string openingstijden;
+        private List<Publicatie> vooraad;
+        private Object objOrderItems;
+       
+        #endregion
+        #region Getter and Setters
         public string Contactinformatie { get; set; }
         public string Openingstijden { get; set; }
         public List<Publicatie> Voorraad { get; set; }
-        public Object ObjOrderItems { get; set; }
+        public object ObjOrderItems { get; set; }
+        #endregion
 
-        public void Boekenwinkel()
+        #region Methods
+        public BoekenWinkel()
+        {
+        }
+        public string GenereerOrder()
         {
             throw new System.NotImplementedException();
         }
 
-        public String GenereerOrder()
+        public string VerkoopBoek(string _ISBN, int _aantal)
         {
             throw new System.NotImplementedException();
         }
 
-        public string VerkoopBoek()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public string VerkoopTijdschrift()
+        public string VerkoopTijdschrift(string _ISSN , int aantal)
         {
             throw new System.NotImplementedException();
         }
@@ -39,7 +46,7 @@ namespace ClassLibraryBoekenWinkel
             throw new System.NotImplementedException();
         }
 
-        public object Niewboek_ob()
+        public void Niewboek(Boeken _objBoek)
         {
             throw new System.NotImplementedException();
         }
@@ -49,17 +56,17 @@ namespace ClassLibraryBoekenWinkel
             throw new System.NotImplementedException();
         }
 
-        public object NieuwTijdschrift_ob()
+        public void NieuwTijdschrift(Tijdschriften _objTijdschrift)
         {
             throw new System.NotImplementedException();
         }
 
-        public void VerwijderBoek()
+        public void VerwijderBoek(Boeken _objBoek)
         {
             throw new System.NotImplementedException();
         }
 
-        public void VerwijderTijdschrift()
+        public void VerwijderTijdschrift(Tijdschriften _objTijdschift)
         {
             throw new System.NotImplementedException();
         }
@@ -84,9 +91,10 @@ namespace ClassLibraryBoekenWinkel
             throw new System.NotImplementedException();
         }
 
-        public DateTime Bestellinginzien()
+        public DateTime Bestellinginzien(DateTime _datum)
         {
             throw new System.NotImplementedException();
         }
     }
 }
+#endregion

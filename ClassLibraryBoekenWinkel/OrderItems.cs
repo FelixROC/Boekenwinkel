@@ -61,15 +61,9 @@ namespace ClassLibraryBoekenWinkel
         {
 
         }
-
-        public override string ToString()
-        {
-            return base.ToString();
-        }
-
         public string PrintOrderOpDatum(DateTime _datum)
         {
-            return _datum;
+            throw new NotImplementedException();
         } 
         #endregion
     }

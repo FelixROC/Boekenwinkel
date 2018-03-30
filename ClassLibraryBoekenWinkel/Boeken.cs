@@ -11,28 +11,35 @@ namespace ClassLibraryBoekenWinkel
         #region Definitions
         private string titel;
         private string auteur;
-        private DateTime dagVanUitifte;
         private Enum_Taal taal;
         private Afmeting afmetingen;
         private decimal gewicht;
+        private string druk; 
         private int iSBN;
-        private decimal prijs;
-        private int bestelAantal;
-        private DateTime bestelDag;
+        private int Miniumaantal;
+        private int Voorraad;
+        private int Maxiumaantal;
         #endregion
 
         #region Methods
-        public override void Boek(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs)
+        public Boeken(string titel, string druk, int iSBN, int miniumaantal, int maxiumaantal)
+        {
+            this.titel = titel;
+            this.druk = druk;
+            this.iSBN = iSBN;
+            Miniumaantal = miniumaantal;
+            Maxiumaantal = maxiumaantal;
+        }
+
+        public override void publicatie(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs)
         {
             throw new NotImplementedException();
+        }
 
-            this.titel = _titel;
-            this.auteur = _auteur;
-            this.taal = _taal;
-            this.afmetingen = _afmetingen;
-            this.gewicht = _gewicht;
-            this.prijs = _prijs;
-        } 
+        public override string ToString()
+        {
+            return base.ToString();
+        }
         #endregion
     }
 }

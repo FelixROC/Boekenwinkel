@@ -23,11 +23,15 @@ namespace ClassLibraryBoekenWinkel
         public Tijdschriften(string ISSN, int AantalTijdschriftenBestellen, DayOfWeek Besteldag, DayOfWeek Publicatiedag)
         {
 
-        }     
+        }
+        public override void publicatie(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs)
+        {
+            throw new NotImplementedException();
+        }
 
         public override string ToString()
         {
-            
+            return base.ToString();
         }
-}
+    }
 }
