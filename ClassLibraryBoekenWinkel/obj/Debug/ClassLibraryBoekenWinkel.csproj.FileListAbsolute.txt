@@ -3,3 +3,7 @@ C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\ClassLibraryBoekenWinkel\bin\Deb
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\ClassLibraryBoekenWinkel\obj\Debug\ClassLibraryBoekenWinkel.csprojResolveAssemblyReference.cache
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\ClassLibraryBoekenWinkel\obj\Debug\ClassLibraryBoekenWinkel.dll
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\ClassLibraryBoekenWinkel\obj\Debug\ClassLibraryBoekenWinkel.pdb
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\ClassLibraryBoekenWinkel\obj\Debug\ClassLibraryBoekenWinkel.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\ClassLibraryBoekenWinkel\obj\Debug\ClassLibraryBoekenWinkel.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\ClassLibraryBoekenWinkel\obj\Debug\ClassLibraryBoekenWinkel.dll
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\ClassLibraryBoekenWinkel\obj\Debug\ClassLibraryBoekenWinkel.pdb
