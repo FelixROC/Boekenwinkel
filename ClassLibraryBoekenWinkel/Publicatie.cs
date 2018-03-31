@@ -10,7 +10,7 @@ namespace ClassLibraryBoekenWinkel
     public abstract class Publicatie
     {
         #region Definitions
-        public string titel;
+        private string titel;
         private string auteur;
         private int gewicht;
         private decimal prijs;
@@ -100,14 +100,12 @@ namespace ClassLibraryBoekenWinkel
 
 
         #region Methods
- //       public abstract void Boek(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs);
- //       public abstract void Tijdschrift(string ISSN, int AantalTijdschriftenBestellen, DayOfWeek Besteldag, DayOfWeek Publicatiedag);\
-        
-        public abstract Publicatie(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs);
+        public abstract void publicatie(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs);
+
         public override string ToString()
         {
             return base.ToString();
-        } 
+        }
         #endregion
     }
 }
