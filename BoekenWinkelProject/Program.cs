@@ -11,6 +11,12 @@ namespace BoekenWinkelProject
     {
         static void Main(string[] args)
         {
+            public static List<Publicatie> GetTestData()
+            {
+                List<Publicatie> publicaties = new List<Publicatie>();
+                return publicaties
+            }
+
         }
     }
 }
