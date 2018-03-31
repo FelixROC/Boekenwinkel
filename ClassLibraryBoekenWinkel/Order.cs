@@ -58,6 +58,9 @@ namespace ClassLibraryBoekenWinkel
 
 
         #region Methods
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Order"/> class.
+        /// </summary>
         public Order()
         {
 

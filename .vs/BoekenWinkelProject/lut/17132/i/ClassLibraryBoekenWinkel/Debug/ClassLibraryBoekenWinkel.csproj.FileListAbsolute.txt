@@ -1,0 +1,7 @@
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\b\ClassLibraryBoekenWinkel\bin\Debug\ClassLibraryBoekenWinkel.dll
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\b\ClassLibraryBoekenWinkel\bin\Debug\ClassLibraryBoekenWinkel.pdb
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\i\ClassLibraryBoekenWinkel\Debug\ClassLibraryBoekenWinkel.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\i\ClassLibraryBoekenWinkel\Debug\ClassLibraryBoekenWinkel.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\i\ClassLibraryBoekenWinkel\Debug\ClassLibraryBoekenWinkel.csproj.CopyComplete
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\i\ClassLibraryBoekenWinkel\Debug\ClassLibraryBoekenWinkel.dll
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\i\ClassLibraryBoekenWinkel\Debug\ClassLibraryBoekenWinkel.pdb

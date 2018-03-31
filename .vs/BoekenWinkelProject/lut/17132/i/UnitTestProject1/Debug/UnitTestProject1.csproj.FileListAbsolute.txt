@@ -1,0 +1,2 @@
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\i\UnitTestProject1\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\i\UnitTestProject1\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache

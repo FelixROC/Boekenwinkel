@@ -23,6 +23,9 @@ namespace ClassLibraryBoekenWinkel
         #endregion
 
         #region Methods
+        /// <summary>
+        /// Initializes a new instance of the <see cref="BoekenWinkel"/> class.
+        /// </summary>
         public BoekenWinkel()
         {
         }
