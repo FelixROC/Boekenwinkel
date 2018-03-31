@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibraryBoekenWinkel;
 
 namespace BoekenWinkelProject
 {
@@ -10,7 +11,6 @@ namespace BoekenWinkelProject
     {
         static void Main(string[] args)
         {
-            
         }
     }
 }
