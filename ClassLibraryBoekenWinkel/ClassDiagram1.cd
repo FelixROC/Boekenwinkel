@@ -72,9 +72,8 @@
     <InheritanceLine Type="ClassLibraryBoekenWinkel.Publicatie" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="7.01" Y="3.312" />
-        <Point X="7.01" Y="3.625" />
-        <Point X="5.438" Y="3.625" />
-        <Point X="5.438" Y="4" />
+        <Point X="7.01" Y="4" />
+        <Point X="6.438" Y="4" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
