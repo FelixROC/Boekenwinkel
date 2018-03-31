@@ -58,12 +58,12 @@
   <Class Name="ClassLibraryBoekenWinkel.Publicatie" Collapsed="true">
     <Position X="5.25" Y="2.75" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AAAABAAAAAQAAABEAAAAAAAgAAAAIAAAABAGAAAQBgA=</HashCode>
+      <HashCode>AAAABAAAAAQAAAAEAAAAAAAgAAAAIAAAABAGAAAQBgA=</HashCode>
       <FileName>Publicatie.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Afmetingen" />
       <Property Name="Taal" />
+      <Property Name="Afmetingen" />
     </ShowAsAssociation>
   </Class>
   <Class Name="ClassLibraryBoekenWinkel.Tijdschriften" Collapsed="true">
@@ -77,7 +77,7 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>ACABAAAAAAQAACAEAAAAAAIgAAAAAAAAABAAAAEABgA=</HashCode>
+      <HashCode>AAABAAAAAAUAACAEAAAAAAIgAAAAAAAAABAAAAEABgA=</HashCode>
       <FileName>Tijdschriften.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -92,7 +92,7 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAQAACBAAAAAAAIgAAAAAAAAABAAAAEABgA=</HashCode>
+      <HashCode>AAABAAAAAAQAACAAAAAAAAIgAAAAAAAAABAAAAEABgA=</HashCode>
       <FileName>Boeken.cs</FileName>
     </TypeIdentifier>
   </Class>
