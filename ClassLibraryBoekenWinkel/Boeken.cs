@@ -22,17 +22,15 @@ namespace ClassLibraryBoekenWinkel
         #endregion
 
         #region Methods
-        public override void Boek(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs)
+        public Boeken(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs) : base(_titel, _auteur, _taal, _afmetingen, _gewicht, _prijs)
         {
-            throw new NotImplementedException();
-
             this.titel = _titel;
             this.auteur = _auteur;
             this.taal = _taal;
             this.afmetingen = _afmetingen;
             this.gewicht = _gewicht;
             this.prijs = _prijs;
-        } 
+        }
         #endregion
     }
 }
