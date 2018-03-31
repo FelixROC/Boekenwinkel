@@ -4,3 +4,5 @@ C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\bin\Debug\Bo
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\obj\Debug\BoekenWinkelProject.csprojResolveAssemblyReference.cache
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\obj\Debug\BoekenWinkelProject.exe
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\obj\Debug\BoekenWinkelProject.pdb
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\bin\Debug\ClassLibraryBoekenWinkel.dll
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\bin\Debug\ClassLibraryBoekenWinkel.pdb

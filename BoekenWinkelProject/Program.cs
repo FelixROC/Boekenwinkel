@@ -11,7 +11,11 @@ namespace BoekenWinkelProject
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Welk boek/tijdschridt wilt de klant kopen");
+            Console.WriteLine("Type het ID in");
+
+            Console.ReadLine();
+
         }
     }
 }

@@ -69,7 +69,7 @@ namespace ClassLibraryBoekenWinkel
 
         public string PrintOrderOpDatum(DateTime _datum)
         {
-            return _datum;
+            throw new System.NotImplementedException();
         } 
         #endregion
     }
