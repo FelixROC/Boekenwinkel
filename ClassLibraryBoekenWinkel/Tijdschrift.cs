@@ -21,10 +21,12 @@ namespace ClassLibraryBoekenWinkel
         private DateTime bestelDag;
         #endregion
 
-        Tijdschrift t1 = new Tijdschrift("Donald Duck",1, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Tijdschrift t2 = new Tijdschrift("Top Gear",2, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Tijdschrift t3 = new Tijdschrift("Quest",3, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Tijdschrift t4 = new Tijdschrift("Discover",4, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        #region Tijdschriften
+        Tijdschrift t1 = new Tijdschrift("Donald Duck", 5, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        Tijdschrift t2 = new Tijdschrift("Top Gear", 6, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        Tijdschrift t3 = new Tijdschrift("Quest", 7, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        Tijdschrift t4 = new Tijdschrift("Discover", 8, 10, DayOfWeek.Monday, DayOfWeek.Friday); 
+        #endregion
 
         #region Methods
         public Tijdschrift(string Titel,int ISSN, int AantalTijdschriftenBestellen, DayOfWeek Besteldag, DayOfWeek Publicatiedag)
