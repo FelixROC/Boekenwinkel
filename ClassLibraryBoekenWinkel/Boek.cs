@@ -21,6 +21,13 @@ namespace ClassLibraryBoekenWinkel
         private int Maxiumaantal;
         #endregion
 
+        #region Boeken
+        Boek b1 = new Boek("Hercules", "Het oosten", 1, 3, 10);
+        Boek b2 = new Boek("Sneeuw Witje", "Het oosten", 2, 3, 10);
+        Boek b3 = new Boek("Hunger games", "Het oosten", 3, 3, 10);
+        Boek b4 = new Boek("IT", "Het oosten", 4, 3, 10); 
+        #endregion
+
         #region Methods
         public Boek(string titel, string druk, int iSBN, int miniumaantal, int maxiumaantal)
         {
@@ -33,7 +40,12 @@ namespace ClassLibraryBoekenWinkel
 
         public override void publicatie(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs)
         {
-            throw new NotImplementedException();
+            this.titel = _titel;
+            this.auteur = _auteur;
+            this.taal = _taal;
+            this.afmetingen = _afmetingen;
+            this.gewicht = _gewicht;
+            this.Prijs = _prijs;
         }
 
         public override string ToString()

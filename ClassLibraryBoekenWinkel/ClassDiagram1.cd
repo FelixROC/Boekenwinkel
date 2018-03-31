@@ -1,23 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ClassLibraryBoekenWinkel.Bestelling">
-    <Position X="0.5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Bestelling.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ClassLibraryBoekenWinkel.Bestellingen">
-    <Position X="0.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Bestellingen.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="ClassLibraryBoekenWinkel.BoekenWinkel" Collapsed="true">
     <Position X="5.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QAAAAQACAAQAQAAAAABAgABIAAIAgQACiIAQAAAAAAA=</HashCode>
+      <HashCode>QAAAAQACAAQAQAQEAABAAADIAAAAgQACmIAQAAAAAAA=</HashCode>
       <FileName>BoekenWinkel.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
@@ -58,7 +44,7 @@
   <Class Name="ClassLibraryBoekenWinkel.Publicatie" Collapsed="true">
     <Position X="5.25" Y="2.75" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AAAABAAAAAQAAAAEAAAAAAAgAAAAIAAAABAGAAAQBgA=</HashCode>
+      <HashCode>AAAABAAAAAQAAAAEAAAAAAQgAAAAIAAAABAGAAAQBgA=</HashCode>
       <FileName>Publicatie.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -66,7 +52,7 @@
       <Property Name="Afmetingen" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="ClassLibraryBoekenWinkel.Tijdschriften" Collapsed="true">
+  <Class Name="ClassLibraryBoekenWinkel.Tijdschrift" Collapsed="true">
     <Position X="7.5" Y="4" Width="1.5" />
     <InheritanceLine Type="ClassLibraryBoekenWinkel.Publicatie" FixedFromPoint="true" FixedToPoint="true">
       <Path>
@@ -77,23 +63,8 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAUAACAEAAAAAAIgAAAAAAAAABAAAAEABgA=</HashCode>
-      <FileName>Tijdschriften.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ClassLibraryBoekenWinkel.Boeken" Collapsed="true">
-    <Position X="4.75" Y="4" Width="1.5" />
-    <InheritanceLine Type="ClassLibraryBoekenWinkel.Publicatie" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="7.01" Y="3.312" />
-        <Point X="7.01" Y="3.625" />
-        <Point X="5.438" Y="3.625" />
-        <Point X="5.438" Y="4" />
-      </Path>
-    </InheritanceLine>
-    <TypeIdentifier>
-      <HashCode>AAABAAAAAAQAACAAAAAAAAIgAAAAAAAAABAAAAEABgA=</HashCode>
-      <FileName>Boeken.cs</FileName>
+      <HashCode>ACABAAAAAAQAACAEAAAAAAYgAAAAAAAAABAAAAEABgA=</HashCode>
+      <FileName>Tijdschrift.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
