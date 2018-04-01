@@ -19,6 +19,17 @@ namespace ClassLibraryBoekenWinkel
         private Afmeting afmetingen;
         #endregion
 
+        #region Publicaties
+        Publicatie t1 = new Tijdschrift("Donald Duck", 5, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        Publicatie t2 = new Tijdschrift("Top Gear", 6, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        Publicatie t3 = new Tijdschrift("Quest", 7, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        Publicatie t4 = new Tijdschrift("Discover", 8, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        Publicatie b1 = new Boek("Hercules", "Het oosten", 1, 3, 10);
+        Publicatie b2 = new Boek("Sneeuw Witje", "Het oosten", 2, 3, 10);
+        Publicatie b3 = new Boek("Hunger games", "Het oosten", 3, 3, 10);
+        Publicatie b4 = new Boek("IT", "Het oosten", 4, 3, 10);
+        #endregion
+
         #region Getter and Setter for definitions
         public string Titel
         {
