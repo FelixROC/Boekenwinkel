@@ -44,7 +44,7 @@
   <Class Name="ClassLibraryBoekenWinkel.Publicatie" Collapsed="true">
     <Position X="5.25" Y="2.75" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AAAABAAAAAQAAAAEAAAAAAQgAAAAIAAAABAGAAAQBgA=</HashCode>
+      <HashCode>EAAABAAAAAQAAAAEAAAAAAQgABBAIAAAABgmAAAQJoQ=</HashCode>
       <FileName>Publicatie.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -63,7 +63,7 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>ACABAAAAAAQAACAEAAAAAAYgAAAAAAAAABAAAAEABgA=</HashCode>
+      <HashCode>AAABAAAAAAQAACAEAAAAAAYgAAAAAAAAABAAAAEABgA=</HashCode>
       <FileName>Tijdschrift.cs</FileName>
     </TypeIdentifier>
   </Class>
