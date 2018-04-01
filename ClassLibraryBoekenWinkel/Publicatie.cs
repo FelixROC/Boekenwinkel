@@ -19,17 +19,6 @@ namespace ClassLibraryBoekenWinkel
         private Afmeting afmetingen;
         #endregion
 
-        #region Publicaties
-        Tijdschrift t1 = new Tijdschrift("Donald Duck", 5, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Tijdschrift t2 = new Tijdschrift("Top Gear", 6, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Tijdschrift t3 = new Tijdschrift("Quest", 7, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Tijdschrift t4 = new Tijdschrift("Discover", 8, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Boek b1 = new Boek("Hercules", "Het oosten", 1, 3, 10);
-        Boek b2 = new Boek("Sneeuw Witje", "Het oosten", 2, 3, 10);
-        Boek b3 = new Boek("Hunger games", "Het oosten", 3, 3, 10);
-        Boek b4 = new Boek("IT", "Het oosten", 4, 3, 10);
-        #endregion
-
         #region Getter and Setter for definitions
         public string Titel
         {
@@ -112,6 +101,16 @@ namespace ClassLibraryBoekenWinkel
 
 
         #region Methods
+        /// <summary>
+        /// Publicaties the specified titel.
+        /// </summary>
+        /// <param name="_titel">The titel.</param>
+        /// <param name="_auteur">The auteur.</param>
+        /// <param name="_taal">The taal.</param>
+        /// <param name="_afmetingen">The afmetingen.</param>
+        /// <param name="_gewicht">The gewicht.</param>
+        /// <param name="_prijs">The prijs.</param>
+        public abstract void publicatie(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs);
 
         public override string ToString()
         {
