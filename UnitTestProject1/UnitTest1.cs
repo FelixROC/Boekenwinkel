@@ -1,6 +1,4 @@
-﻿using System;
-using CLassL
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestProject1
 {
