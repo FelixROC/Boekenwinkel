@@ -16,45 +16,11 @@ namespace ClassLibraryBoekenWinkel
 
 
         #region Getter en Setters
-        public DateTime OrderDatum
-        {
-            get
-            {
-                return orderDatum;
-            }
 
-            set
-            {
-                orderDatum = value;
-            }
-        }
-
-        public bool OrderAfgehandeld
-        {
-            get
-            {
-                return orderAfgehandeld;
-            }
-
-            set
-            {
-                orderAfgehandeld = value;
-            }
-        }
-
-        public List<string> OrderList
-        {
-            get
-            {
-                return orderList;
-            }
-
-            set
-            {
-                orderList = value;
-            }
-        }
-        #endregion
+        public DateTime OrderDatum { get; set; }
+        public bool OrderAfgehandeld { get; set; }
+        public List<string> OrderList { get; set; }
+       #endregion
 
 
         #region Methods
@@ -65,22 +31,18 @@ namespace ClassLibraryBoekenWinkel
         {
 
         }
-
         public void Toevoegen(string _order)
         {
 
         }
-
         public void Verwijderen(string _order)
         {
 
         }
-
         public void Verwijderen(int _index)
         {
 
         }
-
         public override string ToString()
         {
             return base.ToString();
