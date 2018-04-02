@@ -51,7 +51,6 @@ namespace ClassLibraryBoekenWinkel
 
         public void Niewboek(Boek _objBoek)
         {
-            throw new System.NotImplementedException();
         }
 
         public void NieuwTijdschrift()
@@ -82,6 +81,7 @@ namespace ClassLibraryBoekenWinkel
         public string ToonAlleBoeken()
         {
             throw new System.NotImplementedException();
+
         }
 
         public void LaasteBestellingAfhandelen()

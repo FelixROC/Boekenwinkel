@@ -21,13 +21,6 @@ namespace ClassLibraryBoekenWinkel
         private DateTime bestelDag;
         #endregion
 
-        #region Tijdschriften
-        Tijdschrift t1 = new Tijdschrift("Donald Duck", 5, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Tijdschrift t2 = new Tijdschrift("Top Gear", 6, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Tijdschrift t3 = new Tijdschrift("Quest", 7, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Tijdschrift t4 = new Tijdschrift("Discover", 8, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        #endregion
-
         #region Methods
         /// <summary>
         /// Initializes a new instance of the <see cref="Tijdschrift"/> class.
@@ -59,6 +52,13 @@ namespace ClassLibraryBoekenWinkel
             this.gewicht = _gewicht;
             this.Prijs = _prijs;
         }
+
+        #region Tijdschriften
+        Tijdschrift t1 = new Tijdschrift("Donald Duck", 5, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        Tijdschrift t2 = new Tijdschrift("Top Gear", 6, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        Tijdschrift t3 = new Tijdschrift("Quest", 7, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        Tijdschrift t4 = new Tijdschrift("Discover", 8, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        #endregion
 
         public override string ToString()
         {
