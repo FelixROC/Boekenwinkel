@@ -21,45 +21,19 @@ namespace ClassLibraryBoekenWinkel
         private DateTime bestelDag;
         #endregion
 
-        #region Methods
-        /// <summary>
-        /// Initializes a new instance of the <see cref="Tijdschrift"/> class.
-        /// </summary>
-        /// <param name="Titel">The titel.</param>
-        /// <param name="ISSN">The issn.</param>
-        /// <param name="AantalTijdschriftenBestellen">The aantal tijdschriften bestellen.</param>
-        /// <param name="Besteldag">The besteldag.</param>
-        /// <param name="Publicatiedag">The publicatiedag.</param>
-        public Tijdschrift(string Titel,int ISSN, int AantalTijdschriftenBestellen, DayOfWeek Besteldag, DayOfWeek Publicatiedag)
-        {
-
-        }
-        /// <summary>
-        /// Publicaties the specified titel.
-        /// </summary>
-        /// <param name="_titel">The titel.</param>
-        /// <param name="_auteur">The auteur.</param>
-        /// <param name="_taal">The taal.</param>
-        /// <param name="_afmetingen">The afmetingen.</param>
-        /// <param name="_gewicht">The gewicht.</param>
-        /// <param name="_prijs">The prijs.</param>
-        public override void publicatie(string _titel, string _auteur, Enum_Taal _taal, Afmeting _afmetingen, int _gewicht, decimal _prijs)
-        {
-            this.titel = _titel;
-            this.auteur = _auteur;
-            this.taal = _taal;
-            this.afmetingen = _afmetingen;
-            this.gewicht = _gewicht;
-            this.Prijs = _prijs;
-        }
+        
 
         #region Tijdschriften
-        Tijdschrift t1 = new Tijdschrift("Donald Duck", 5, 10, DayOfWeek.Monday, DayOfWeek.Friday);
+        Tijdschrift t1 = new Tijdschrift( "Donald Duck", "auteur" , Enum_Taal.Nederlands , "Afmeting",5,10.50m,"issn",30,DayOfWeek.Monday,DayOfWeek.Friday);
         Tijdschrift t2 = new Tijdschrift("Top Gear", 6, 10, DayOfWeek.Monday, DayOfWeek.Friday);
         Tijdschrift t3 = new Tijdschrift("Quest", 7, 10, DayOfWeek.Monday, DayOfWeek.Friday);
         Tijdschrift t4 = new Tijdschrift("Discover", 8, 10, DayOfWeek.Monday, DayOfWeek.Friday);
         #endregion
+        #region Methods
+        public Tijdschrift(string _Titel, string _Auteur, Enum_Taal _Taal, Afmeting _Afmeting, int _gewicht, decimal _prijs , string _ISSN , int AantalTijdschriftenBestellen, DayOfWeek Besteldag , DayOfWeek Publicatiedag) : base(_Titel, _Auteur, _Taal, _Afmeting, _gewicht, _prijs)
+        {
 
+        }
         public override string ToString()
         {
             return base.ToString();

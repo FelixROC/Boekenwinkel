@@ -47,7 +47,6 @@
     <Compile Include="OrderItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Publicatie.cs" />
-    <Compile Include="Enum_Taal.cs" />
     <Compile Include="Tijdschrift.cs" />
   </ItemGroup>
   <ItemGroup>

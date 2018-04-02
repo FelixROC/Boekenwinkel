@@ -7,102 +7,39 @@ using ClassLibraryBoekenWinkel;
 
 namespace ClassLibraryBoekenWinkel
 {
+
+    public enum Enum_Taal
+    {
+        Nederlands,
+        Engels
+    }
     public abstract class Publicatie
     {
-
         #region Definitions
         private string titel;
         private string auteur;
-        private int gewicht;
-        private decimal prijs;
         private Enum_Taal taal;
         private Afmeting afmetingen;
+        private int gewicht;
+        private decimal prijs;
         #endregion
 
-
         #region Getter and Setter for definitions
-        public string Titel
-        {
-            get
-            {
-                return titel;
-            }
-
-            set
-            {
-                titel = value;
-            }
-        }
-
-        public string Auteur
-        {
-            get
-            {
-                return auteur;
-            }
-
-            set
-            {
-                auteur = value;
-            }
-        }
-
-        public int Gewicht
-        {
-            get
-            {
-                return gewicht;
-            }
-
-            set
-            {
-                gewicht = value;
-            }
-        }
-
-        public decimal Prijs
-        {
-            get
-            {
-                return prijs;
-            }
-
-            set
-            {
-                prijs = value;
-            }
-        }
-
-        public Enum_Taal Taal
-        {
-            get
-            {
-                return taal;
-            }
-
-            set
-            {
-                taal = value;
-            }
-        }
-
-        public Afmeting Afmetingen
-        {
-            get
-            {
-                return afmetingen;
-            }
-
-            set
-            {
-                afmetingen = value;
-            }
-        }
+        public string Titel { get; set; }
+        public string Auteur { get; set; }
+        public Enum_Taal Taal { get; set; }
+        public Afmeting Afmetingen { get; set; }
+        public int Gewicht { get; set; }
+        public Decimal Prijs { get; set; }
         #endregion
 
 
         #region Methods
 
+        public Publicatie(string _Titel, string _Auteur, Enum_Taal _Taal, Afmeting _Afmeting, int _gewicht, decimal _prijs)
+        {
+
+        }
         public override string ToString()
         {
             return base.ToString();
