@@ -25,11 +25,20 @@ namespace ClassLibraryBoekenWinkel
             _lengte = lengte;
             _breedte = Breedte;
             _hoogte = Hoogte;
-        }   
+        }
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Afmeting"/> class.
+        /// </summary>
         public Afmeting()
         {
             
         }
+        /// <summary>
+        /// Returns a <see cref="System.String" /> that represents this instance.
+        /// </summary>
+        /// <returns>
+        /// A <see cref="System.String" /> that represents this instance.
+        /// </returns>
         public override string ToString()
         {
             return base.ToString();
