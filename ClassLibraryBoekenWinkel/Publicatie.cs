@@ -22,8 +22,12 @@ namespace ClassLibraryBoekenWinkel
         private string auteur;
         private Enum_Taal taal;
         private Afmeting afmetingen;
-        private int gewicht;
-        private decimal prijs;
+        private decimal gewicht;
+        private string druk;
+        private int iSBN;
+        private int Miniumaantal;
+        private int Voorraad;
+        private int Maxiumaantal;
         #endregion
 
         #region Getter and Setter for definitions

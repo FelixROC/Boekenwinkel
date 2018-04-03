@@ -9,7 +9,7 @@ namespace ClassLibraryBoekenWinkel
     public class Afmeting
     {
 
-        public int lengte { get; set; }
+        public int Lengte { get; set; }
 
         public int Breedte { get; set; }
 
@@ -22,7 +22,7 @@ namespace ClassLibraryBoekenWinkel
         /// <param name="_hoogte">The hoogte.</param>
         public Afmeting(int _lengte, int _breedte, int _hoogte)
         {
-            _lengte = lengte;
+            _lengte = Lengte;
             _breedte = Breedte;
             _hoogte = Hoogte;
         }
