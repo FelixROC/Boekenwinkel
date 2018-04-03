@@ -17,7 +17,6 @@ namespace ClassLibraryBoekenWinkel
 
     public abstract class Publicatie
     {
-        Afmeting Af = new Afmeting(2, 5, 2);
 
         #region Definitions
         private string titel;
@@ -32,6 +31,7 @@ namespace ClassLibraryBoekenWinkel
         private int Maxiumaantal;
         public static List<Boek> Boekenlijst;
         public static List<Tijdschrift> Tijdschriftenlijst;
+        public static string Afdrukken;
         #endregion
 
         #region Getter and Setter for definitions
@@ -54,7 +54,6 @@ namespace ClassLibraryBoekenWinkel
             this.afmetingen = _Afmeting;
             this.gewicht = _gewicht;
             this.Prijs = _prijs;
-            this.afmetingen = Af;
             Boekenlijst = new List<Boek>();
             Tijdschriftenlijst = new List<Tijdschrift>();
         }

@@ -18,6 +18,8 @@ namespace ClassLibraryBoekenWinkel
         private int maximumaantal;
         #endregion
 
+        Afmeting af = new Afmeting(2, 5, 2);
+
         #region Getter and Setter for definitions
         public string Druk { get; set; }
         public string ISBN { get; set; }
@@ -66,7 +68,7 @@ namespace ClassLibraryBoekenWinkel
 
         public string Afdrukken()
         {
-            var stringbuilder = new StringBuilder()
+            var sb = new StringBuilder()
                 .Append("Titel: ")
                 .Append(Titel)
                 .Append("\n")
@@ -96,7 +98,7 @@ namespace ClassLibraryBoekenWinkel
                 .Append("Druk: ")
                 .Append(Druk);
 
-            return stringbuilder.ToString();
+            return sb.ToString();
         }
         #endregion
     }

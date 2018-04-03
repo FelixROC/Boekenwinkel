@@ -8,6 +8,7 @@ namespace ClassLibraryBoekenWinkel
 {
     public class Afmeting
     {
+
         public int Lengte { get; set; }
 
         public int Breedte { get; set; }
@@ -30,7 +31,7 @@ namespace ClassLibraryBoekenWinkel
         /// </summary>
         public Afmeting()
         {
-            
+
         }
         /// <summary>
         /// Returns a <see cref="System.String" /> that represents this instance.
