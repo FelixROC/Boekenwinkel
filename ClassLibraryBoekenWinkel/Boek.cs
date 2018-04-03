@@ -22,12 +22,6 @@
         public int Voorraad { get; set; }
         public int BestelRegel { get;}
         #endregion
-        #region Boeken
-        Boek b1 = new Boek("Hercules", "Het oosten", Enum_Taal.Nederlands,"afmetin",12,25.50m,"de druk","de isbn",20,5);
-        Boek b2 = new Boek("Sneeuw Witje", "Het oosten", 2, 3, 10);
-        Boek b3 = new Boek("Hunger games", "Het oosten", 3, 3, 10);
-        Boek b4 = new Boek("IT", "Het oosten", 4, 3, 10);
-        #endregion
 
         #region Methods
 

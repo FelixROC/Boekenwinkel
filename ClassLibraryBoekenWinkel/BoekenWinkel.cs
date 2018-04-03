@@ -12,7 +12,7 @@ namespace ClassLibraryBoekenWinkel
         private string contactinformatie;
         private string openingstijden;
         private List<Publicatie> vooraad;
-        private Object objOrderItems;
+        private object objOrderItems;
 
         #endregion
         #region Getter and Setters
@@ -26,8 +26,11 @@ namespace ClassLibraryBoekenWinkel
         /// <summary>
         /// Initializes a new instance of the <see cref="BoekenWinkel"/> class.
         /// </summary>
-        public BoekenWinkel()
+        public BoekenWinkel(string _Contactinformatie, string _Openingstijden, List<Publicatie> _Voorraad, object _ObjOrderItems)
         {
+            this.contactinformatie = _Contactinformatie;
+            this.openingstijden = _Openingstijden;
+            this.vooraad = _Voorraad;
         }
         public string GenereerOrder()
         {
@@ -85,6 +88,6 @@ namespace ClassLibraryBoekenWinkel
         {
             throw new System.NotImplementedException();
         }
+        #endregion
     }
 }
-#endregion

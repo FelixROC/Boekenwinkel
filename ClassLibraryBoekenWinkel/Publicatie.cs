@@ -11,8 +11,10 @@ namespace ClassLibraryBoekenWinkel
     public enum Enum_Taal
     {
         Nederlands,
-        Engels
+        Engels,
+        Deutsch
     }
+
     public abstract class Publicatie
     {
         #region Definitions
