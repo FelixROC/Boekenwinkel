@@ -11,8 +11,11 @@ namespace BoekenWinkelProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welk boek/tijdschridt wilt de klant kopen");
-            Console.WriteLine("Type het ID in");
+            Afmeting af = new Afmeting(2, 5, 2);
+            var B1 = new Boek("Hercules", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
+            var B2 = new Boek("SneeuwWitje", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
+            var B3 = new Boek("Hunger games", "Het oosten", Enum_Taal.Engels, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
+            var B4 = new Boek("IT", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
 
             Console.ReadLine();
 
