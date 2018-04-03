@@ -8,7 +8,6 @@ namespace ClassLibraryBoekenWinkel
 {
     public class Afmeting
     {
-
         public int Lengte { get; set; }
 
         public int Breedte { get; set; }

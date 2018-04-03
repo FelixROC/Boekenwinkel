@@ -12,13 +12,12 @@ namespace BoekenWinkelProject
     {
         static void Main(string[] args)
         {
-            Afmeting af = new Afmeting(2, 5, 2);
 
 
-            Boek B1 = new Boek("Hercules", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
-            Boek B2 = new Boek("SneeuwWitje", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
-            Boek B3 = new Boek("Hunger games", "Het oosten", Enum_Taal.Engels, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
-            Boek B4 = new Boek("IT", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
+            Boek B1 = new Boek("Hercules", "Het oosten", Enum_Taal.Nederlands, , 12, 25.50m, "de druk", "1", 20, 5);
+            Boek B2 = new Boek("SneeuwWitje", "Het oosten", Enum_Taal.Nederlands, , 12, 25.50m, "de druk", "2", 20, 5);
+            Boek B3 = new Boek("Hunger games", "Het oosten", Enum_Taal.Engels, , 12, 25.50m, "de druk", "3", 20, 5);
+            Boek B4 = new Boek("IT", "Het oosten", Enum_Taal.Nederlands, , 12, 25.50m, "de druk", "4", 20, 5);
 
             Tijdschrift T1 = new Tijdschrift("Donald Duck", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "5", 30, DayOfWeek.Monday, DayOfWeek.Friday);
             Tijdschrift T2 = new Tijdschrift("Top Gear", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "6", 30, DayOfWeek.Monday, DayOfWeek.Friday);
@@ -46,7 +45,6 @@ namespace BoekenWinkelProject
             }
 
             Console.WriteLine("Hier een print van de boeken");
-            Console.WriteLine(Boek.)
 
             Console.ReadKey();
 

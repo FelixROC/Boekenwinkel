@@ -51,6 +51,7 @@ namespace ClassLibraryBoekenWinkel
             this.Afmetingen = _Afmeting;
             this.gewicht = _prijs;
             this.prijs = _prijs;
+            this.afmetingen = _Afmeting;
 
         }
         /// <summary>
@@ -61,8 +62,40 @@ namespace ClassLibraryBoekenWinkel
         /// </returns>
         public override string ToString()
         {
-            return titel + " " + auteur + " " + taal + " " + afmetingen + " " + gewicht + " " + prijs + " " + iSSN + " " + bestelAantal + " " + bestelAantal + " " + Publicatiedag;
-        } 
+            return titel + " " + auteur + " " + taal + " " + afmetingen + " " + gewicht + " " + prijs + " " + iSSN + " " + bestelAantal + " " + bestelDag + " " + Publicatiedag;
+        }
+
+        public string Afdrukken()
+        {
+            var stringbuilder = new StringBuilder()
+                .Append("Titel: ")
+                .Append(Titel)
+                .Append("\n")
+                .Append("Auteur: ")
+                .Append(Auteur)
+                .Append("\n")
+                .Append("Taal: ")
+                .Append(Taal)
+                .Append("\n")
+                .Append("De Afmeting: ")
+                .Append(Afmetingen.Breedte)
+                .Append("L " + Afmetingen.Lengte)
+                .Append("H " + Afmetingen.Hoogte)
+                .Append("\n")
+                .Append("ISSN: ")
+                .Append(iSSN)
+                .Append("\n")
+                .Append("Bestel Aantal: ")
+                .Append("\n")
+                .Append(bestelAantal)
+                .Append("\n")
+                .Append("Bestel Dag: ")
+                .Append(bestelDag)
+                .Append("Publicatie Dag")
+                .Append(Publicatiedag);
+
+            return stringbuilder.ToString();
+        }
         #endregion
     }
 }

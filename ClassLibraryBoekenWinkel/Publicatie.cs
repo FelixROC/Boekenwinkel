@@ -17,6 +17,8 @@ namespace ClassLibraryBoekenWinkel
 
     public abstract class Publicatie
     {
+        Afmeting Af = new Afmeting(2, 5, 2);
+
         #region Definitions
         private string titel;
         private string auteur;
@@ -52,6 +54,7 @@ namespace ClassLibraryBoekenWinkel
             this.afmetingen = _Afmeting;
             this.gewicht = _gewicht;
             this.Prijs = _prijs;
+            this.afmetingen = Af;
             Boekenlijst = new List<Boek>();
             Tijdschriftenlijst = new List<Tijdschrift>();
         }
