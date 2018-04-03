@@ -49,7 +49,7 @@ namespace ClassLibraryBoekenWinkel
         {
             throw new System.NotImplementedException();
         }
-        public void Niewboek(Boek _objBoek)
+        public static void NieuwBoek(Boek _objBoek)
         {
             //Probeer een boek toe te voegen 
             try
@@ -68,9 +68,18 @@ namespace ClassLibraryBoekenWinkel
         {
             throw new System.NotImplementedException();
         }
-        public void NieuwTijdschrift(Tijdschrift _objTijdschrift)
+        public static void NieuwTijdschrift(Tijdschrift _objTijdschrift)
         {
-            throw new System.NotImplementedException();
+            //Probeer een Tijdschrift toe te voegen 
+            try
+            {
+                Publicatie.Tijdschriften.Add(_objTijdschrift);
+            }
+            catch (NullReferenceException)
+            {
+                //als het Tijdschrift niks bevat moet je zeggen dat er niks in het boek zit
+                Console.WriteLine("Boek doesnt contain any data");
+            }
         }
         public void VerwijderBoek(Boek _objBoek)
         {

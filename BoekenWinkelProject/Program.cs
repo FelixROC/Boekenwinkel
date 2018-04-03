@@ -23,9 +23,17 @@ namespace BoekenWinkelProject
             Tijdschrift T3 = new Tijdschrift("Quest", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "7", 30, DayOfWeek.Monday, DayOfWeek.Friday);
             Tijdschrift T4 = new Tijdschrift("Discover", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "8", 30, DayOfWeek.Monday, DayOfWeek.Friday);
 
-            BoekenWinkel.
+            BoekenWinkel.NieuwBoek(B1);
+            BoekenWinkel.NieuwBoek(B2);
+            BoekenWinkel.NieuwBoek(B3);
+            BoekenWinkel.NieuwBoek(B4);
 
-            Console.WriteLine(B1);
+            BoekenWinkel.NieuwTijdschrift(T1);
+            BoekenWinkel.NieuwTijdschrift(T2);
+            BoekenWinkel.NieuwTijdschrift(T3);
+            BoekenWinkel.NieuwTijdschrift(T4);
+
+            Console.WriteLine();
             Console.ReadKey();
 
         }
