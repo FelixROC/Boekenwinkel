@@ -51,7 +51,18 @@ namespace ClassLibraryBoekenWinkel
         }
         public void Niewboek(Boek _objBoek)
         {
-            Publicatie.Boeken
+            //Probeer een boek toe te voegen 
+            try
+            {
+                Publicatie.Boekenlijst.Add(_objBoek);
+            }
+            catch (NullReferenceException)
+            {
+                //als het boek niks bevat moet je zeggen dat er niks in het boek zit
+                Console.WriteLine("Boek doesnt contain any data");
+            }
+            
+
         }
         public void NieuwTijdschrift()
         {
