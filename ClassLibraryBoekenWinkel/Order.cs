@@ -19,7 +19,7 @@ namespace ClassLibraryBoekenWinkel
 
         public DateTime OrderDatum { get; set; }
         public bool OrderAfgehandeld { get; set; }
-        public List<string> OrderList { get; set; }
+        public static List<string> OrderList { get; set; }
        #endregion
 
 
@@ -31,9 +31,9 @@ namespace ClassLibraryBoekenWinkel
         {
 
         }
-        public void Toevoegen(string _order)
+        public static void Toevoegen(string _order)
         {
-
+            OrderList.Add("Order");
         }
         public void Verwijderen(string _order)
         {

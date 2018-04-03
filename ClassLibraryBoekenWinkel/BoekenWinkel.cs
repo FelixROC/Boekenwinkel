@@ -83,13 +83,27 @@ namespace ClassLibraryBoekenWinkel
                 Console.WriteLine("The Tijdschrift doesnt contain any data");
             }
         }
-        public void VerwijderBoek(Boek _objBoek)
+        public static void VerwijderBoek(Boek _objBoek)
         {
-            throw new System.NotImplementedException();
+            if (Publicatie.Boekenlijst.Contains( _objBoek))
+            {
+                Publicatie.Boekenlijst.Remove( _objBoek);
+            }
+            else
+            {
+                Console.WriteLine("There a no 2 books with the same data that you have submitted");
+            }
         }
-        public void VerwijderTijdschrift(Tijdschrift _objTijdschift)
+        public void VerwijderTijdschrift(Tijdschrift _objTijdschrift)
         {
-            throw new System.NotImplementedException();
+            if (Publicatie.Tijdschriftenlijst.Contains( _objTijdschrift))
+            {
+                Publicatie.Tijdschriftenlijst.Remove( _objTijdschrift);
+            }
+            else
+            {
+                Console.WriteLine("There a no 2 tijdschriften with the same data that you have submitted");
+            }
         }
         public string ToonAlleTijdschriften()
         {
