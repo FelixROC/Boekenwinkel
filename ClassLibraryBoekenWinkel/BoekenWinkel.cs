@@ -94,7 +94,7 @@ namespace ClassLibraryBoekenWinkel
                 Console.WriteLine("There a no 2 books with the same data that you have submitted");
             }
         }
-        public void VerwijderTijdschrift(Tijdschrift _objTijdschrift)
+        public static void VerwijderTijdschrift(Tijdschrift _objTijdschrift)
         {
             if (Publicatie.Tijdschriftenlijst.Contains( _objTijdschrift))
             {

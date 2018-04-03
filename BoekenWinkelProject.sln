@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoekenWinkelProject", "Boek
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryBoekenWinkel", "ClassLibraryBoekenWinkel\ClassLibraryBoekenWinkel.csproj", "{685B3624-456F-4BFB-8973-3E04DF2F62F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject2", "UnitTestProject2\UnitTestProject2.csproj", "{8F1F812D-86C8-4322-AA09-E5E7C9C243B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsBoekenWinkel", "UnitTestProject2\UnitTestsBoekenWinkel.csproj", "{8F1F812D-86C8-4322-AA09-E5E7C9C243B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,12 +15,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1B3E6F12-6466-41A8-999B-A4D56C90C7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B3E6F12-6466-41A8-999B-A4D56C90C7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3E6F12-6466-41A8-999B-A4D56C90C7F7}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3E6F12-6466-41A8-999B-A4D56C90C7F7}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{1B3E6F12-6466-41A8-999B-A4D56C90C7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B3E6F12-6466-41A8-999B-A4D56C90C7F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{685B3624-456F-4BFB-8973-3E04DF2F62F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{685B3624-456F-4BFB-8973-3E04DF2F62F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685B3624-456F-4BFB-8973-3E04DF2F62F2}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{685B3624-456F-4BFB-8973-3E04DF2F62F2}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{685B3624-456F-4BFB-8973-3E04DF2F62F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{685B3624-456F-4BFB-8973-3E04DF2F62F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8F1F812D-86C8-4322-AA09-E5E7C9C243B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

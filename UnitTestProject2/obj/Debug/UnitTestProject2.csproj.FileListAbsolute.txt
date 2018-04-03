@@ -1,0 +1,8 @@
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\obj\Debug\UnitTestProject2.csprojResolveAssemblyReference.cache
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\bin\Debug\UnitTestProject2.dll
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\bin\Debug\UnitTestProject2.pdb
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\bin\Debug\ClassLibraryBoekenWinkel.dll
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\bin\Debug\ClassLibraryBoekenWinkel.pdb
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\obj\Debug\UnitTestProject2.dll
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\obj\Debug\UnitTestProject2.pdb

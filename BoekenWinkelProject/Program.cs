@@ -28,6 +28,7 @@ namespace BoekenWinkelProject
             Tijdschrift T4 = new Tijdschrift("Discover", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "00000008", 30, DayOfWeek.Monday, DayOfWeek.Friday);
 
             #endregion
+
             BoekenWinkel.NieuwBoek(B1);
             BoekenWinkel.NieuwBoek(B2);
             BoekenWinkel.NieuwBoek(B3);

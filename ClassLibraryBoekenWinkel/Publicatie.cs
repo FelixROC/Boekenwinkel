@@ -40,20 +40,18 @@ namespace ClassLibraryBoekenWinkel
         public Afmeting Afmetingen { get; set; }
         public int Gewicht { get; set; }
         public decimal Prijs { get; set; }
-        public string Druk { get; set; }
         #endregion
 
 
         #region Methods
 
-        public Publicatie(string _Titel, string _Auteur, Enum_Taal _Taal, Afmeting _Afmeting, int _gewicht, string _druk ,decimal _prijs)
+        public Publicatie(string _Titel, string _Auteur, Enum_Taal _Taal, Afmeting _Afmeting, int _gewicht ,decimal _prijs)
         {
             this.titel = _Titel;
             this.auteur = _Auteur;
             this.taal = _Taal;
             this.afmetingen = _Afmeting;
             this.gewicht = _gewicht;
-            this.druk = _druk;
             this.Prijs = _prijs;
             Boekenlijst = new List<Boek>();
             Tijdschriftenlijst = new List<Tijdschrift>();

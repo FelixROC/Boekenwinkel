@@ -1,1 +1,8 @@
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\bin\Release\BoekenWinkelProject.exe.config
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\bin\Release\BoekenWinkelProject.exe
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\bin\Release\BoekenWinkelProject.pdb
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\bin\Release\ClassLibraryBoekenWinkel.dll
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\bin\Release\ClassLibraryBoekenWinkel.pdb
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\obj\Release\BoekenWinkelProject.csprojResolveAssemblyReference.cache
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\obj\Release\BoekenWinkelProject.exe
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\obj\Release\BoekenWinkelProject.pdb

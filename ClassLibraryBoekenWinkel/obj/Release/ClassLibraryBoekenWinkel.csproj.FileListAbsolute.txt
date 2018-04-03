@@ -1,0 +1,5 @@
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\ClassLibraryBoekenWinkel\bin\Release\ClassLibraryBoekenWinkel.dll
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\ClassLibraryBoekenWinkel\bin\Release\ClassLibraryBoekenWinkel.pdb
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\ClassLibraryBoekenWinkel\obj\Release\ClassLibraryBoekenWinkel.dll
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\ClassLibraryBoekenWinkel\obj\Release\ClassLibraryBoekenWinkel.pdb
+C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\ClassLibraryBoekenWinkel\obj\Release\ClassLibraryBoekenWinkel.csprojResolveAssemblyReference.cache

@@ -42,7 +42,7 @@ namespace ClassLibraryBoekenWinkel
         /// <param name="_ISBN">The isbn.</param>
         /// <param name="_maximunAantal">The maximun aantal.</param>
         /// <param name="miniumAantal">The minium aantal.</param>
-        public Boek(string _Titel, string _Auteur, Enum_Taal _Taal, Afmeting _Afmeting, int _gewicht, decimal _prijs , string _druk ,string _ISBN ,int _maximunAantal,int miniumAantal) :base (_Titel, _Auteur, _Taal, _Afmeting, _gewicht, _druk,_prijs)
+        public Boek(string _Titel, string _Auteur, Enum_Taal _Taal, Afmeting _Afmeting, int _gewicht, decimal _prijs , string _druk ,string _ISBN ,int _maximunAantal,int miniumAantal) :base (_Titel, _Auteur, _Taal, _Afmeting, _gewicht,_prijs)
         {
             this.titel = _Titel;
             this.auteur = _Auteur;
