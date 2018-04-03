@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
 {
-    class BoekenWinkel
+    public class BoekenWinkel
     {
         #region Defintions
         private string contactinformatie;
         private string openingstijden;
         private List<Publicatie> vooraad;
-        private object objOrderItems;
+        private OrderItems objOrderItems;
 
         #endregion
         #region Getter and Setters
@@ -26,11 +26,12 @@ namespace ClassLibraryBoekenWinkel
         /// <summary>
         /// Initializes a new instance of the <see cref="BoekenWinkel"/> class.
         /// </summary>
-        public BoekenWinkel(string _Contactinformatie, string _Openingstijden, List<Publicatie> _Voorraad, object _ObjOrderItems)
+        public BoekenWinkel(string _Contactinformatie, string _Openingstijden, List<Publicatie> _Voorraad, OrderItems _ObjOrderItems)
         {
             this.contactinformatie = _Contactinformatie;
             this.openingstijden = _Openingstijden;
             this.vooraad = _Voorraad;
+            this.objOrderItems = _ObjOrderItems;
         }
         public string GenereerOrder()
         {
@@ -44,12 +45,24 @@ namespace ClassLibraryBoekenWinkel
         {
             throw new System.NotImplementedException();
         }
-        public void NieuwBoek()
+        public static void NieuwBoek()
         {
             throw new System.NotImplementedException();
         }
         public void Niewboek(Boek _objBoek)
         {
+            //Probeer een boek toe te voegen 
+            try
+            {
+                Publicatie.Boekenlijst.Add(_objBoek);
+            }
+            catch (NullReferenceException)
+            {
+                //als het boek niks bevat moet je zeggen dat er niks in het boek zit
+                Console.WriteLine("Boek doesnt contain any data");
+            }
+            
+
         }
         public void NieuwTijdschrift()
         {

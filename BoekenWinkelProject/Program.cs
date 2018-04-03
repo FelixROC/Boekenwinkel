@@ -8,16 +8,25 @@ using ClassLibraryBoekenWinkel;
 namespace BoekenWinkelProject
 {
     class Program
+
     {
         static void Main(string[] args)
         {
             Afmeting af = new Afmeting(2, 5, 2);
-            var B1 = new Boek("Hercules", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
-            var B2 = new Boek("SneeuwWitje", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
-            var B3 = new Boek("Hunger games", "Het oosten", Enum_Taal.Engels, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
-            var B4 = new Boek("IT", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
+            Boek B1 = new Boek("Hercules", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
+            Boek B2 = new Boek("SneeuwWitje", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
+            Boek B3 = new Boek("Hunger games", "Het oosten", Enum_Taal.Engels, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
+            Boek B4 = new Boek("IT", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "de isbn", 20, 5);
 
-            Console.ReadLine();
+            Tijdschrift T1 = new Tijdschrift("Donald Duck", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "5", 30, DayOfWeek.Monday, DayOfWeek.Friday);
+            Tijdschrift T2 = new Tijdschrift("Top Gear", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "6", 30, DayOfWeek.Monday, DayOfWeek.Friday);
+            Tijdschrift T3 = new Tijdschrift("Quest", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "7", 30, DayOfWeek.Monday, DayOfWeek.Friday);
+            Tijdschrift T4 = new Tijdschrift("Discover", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "8", 30, DayOfWeek.Monday, DayOfWeek.Friday);
+
+            BoekenWinkel.
+
+            Console.WriteLine(B1);
+            Console.ReadKey();
 
         }
     }

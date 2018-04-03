@@ -29,7 +29,7 @@ namespace ClassLibraryBoekenWinkel
         private int Voorraad;
         private int Maxiumaantal;
         public static List<Boek> Boekenlijst;
-        public static List<Tijdschrift> Tijdschriftenlijst;
+        public static List<Tijdschrift> Tijdschriften;
         #endregion
 
         #region Getter and Setter for definitions
