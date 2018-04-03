@@ -56,10 +56,12 @@ namespace ClassLibraryBoekenWinkel
             {
                 Publicatie.Boekenlijst.Add(_objBoek);
             }
-            catch (NullReferenceException)
+
+            
+           catch (NullReferenceException)
             {
                 //als het boek niks bevat moet je zeggen dat er niks in het boek zit
-                Console.WriteLine("Boek doesnt contain any data");
+                Console.WriteLine("The Boek doesnt contain any data");
             }
             
 
@@ -73,12 +75,12 @@ namespace ClassLibraryBoekenWinkel
             //Probeer een Tijdschrift toe te voegen 
             try
             {
-                Publicatie.Tijdschriften.Add(_objTijdschrift);
+                Publicatie.Tijdschriftenlijst.Add(_objTijdschrift);
             }
             catch (NullReferenceException)
             {
                 //als het Tijdschrift niks bevat moet je zeggen dat er niks in het boek zit
-                Console.WriteLine("Boek doesnt contain any data");
+                Console.WriteLine("The Tijdschrift doesnt contain any data");
             }
         }
         public void VerwijderBoek(Boek _objBoek)

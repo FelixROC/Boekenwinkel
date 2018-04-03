@@ -45,6 +45,13 @@ namespace ClassLibraryBoekenWinkel
         public Tijdschrift(string _Titel, string _Auteur, Enum_Taal _Taal, Afmeting _Afmeting, int _gewicht, decimal _prijs , string _ISSN , int AantalTijdschriftenBestellen, DayOfWeek Besteldag , DayOfWeek Publicatiedag) : base(_Titel, _Auteur, _Taal, _Afmeting, _gewicht, _prijs)
         {
 
+            this.titel = _Titel;
+            this.auteur = _Auteur;
+            this.taal = _Taal;
+            this.Afmetingen = _Afmeting;
+            this.gewicht = _prijs;
+            this.prijs = _prijs;
+
         }
         /// <summary>
         /// Returns a <see cref="System.String" /> that represents this instance.

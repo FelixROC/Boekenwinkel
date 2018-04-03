@@ -1,4 +1,6 @@
-﻿namespace ClassLibraryBoekenWinkel
+﻿using System.Text;
+
+namespace ClassLibraryBoekenWinkel
 {
     public class Boek : Publicatie
     {
@@ -8,12 +10,14 @@
         private Enum_Taal taal;
         private Afmeting afmetingen;
         private decimal gewicht;
+        private decimal prijs; 
         private string druk;
         private int iSBN;
         private int miniumaantal;
         private int voorraad;
-        private int maxiumaantal;
+        private int maximumaantal;
         #endregion
+
         #region Getter and Setter for definitions
         public string Druk { get; set; }
         public string ISBN { get; set; }
@@ -40,7 +44,12 @@
         /// <param name="miniumAantal">The minium aantal.</param>
         public Boek(string _Titel, string _Auteur, Enum_Taal _Taal, Afmeting _Afmeting, int _gewicht, decimal _prijs , string _druk ,string _ISBN ,int _maximunAantal,int miniumAantal) :base (_Titel, _Auteur, _Taal, _Afmeting, _gewicht, _prijs)
         {
-
+            this.titel = _Titel;
+            this.auteur = _Auteur;
+            this.taal = _Taal;
+            this.afmetingen = _Afmeting;
+            this.gewicht = _gewicht;
+            this.prijs = _prijs;
         }
 
         /// <summary>
@@ -49,9 +58,45 @@
         /// <returns>
         /// A <see cref="System.String" /> that represents this instance.
         /// </returns>
+
         public override string ToString()
         {
             return base.ToString();
+        }
+
+        public string Afdrukken()
+        {
+            var stringbuilder = new StringBuilder()
+                .Append("Titel: ")
+                .Append(Titel)
+                .Append("\n")
+                .Append("Auteur: ")
+                .Append(Auteur)
+                .Append("\n")
+                .Append("Taal: ")
+                .Append(Taal)
+                .Append("\n")
+                .Append("De Afmeting: ")
+                .Append(Afmetingen.Breedte)
+                .Append("L" + Afmetingen.Lengte)
+                .Append("H" + Afmetingen.Hoogte)
+                .Append("\n")
+                .Append("ISBN: ")
+                .Append(iSBN)
+                .Append("\n")
+                .Append("Minimum: ")
+                .Append(miniumaantal)
+                .Append("\n")
+                .Append("Maximum: ")
+                .Append(maximumaantal)
+                .Append("\n")
+                .Append("Totale Voorraad: ")
+                .Append(voorraad)
+                .Append("\n")
+                .Append("Druk: ")
+                .Append(Druk);
+
+            return stringbuilder.ToString();
         }
         #endregion
     }

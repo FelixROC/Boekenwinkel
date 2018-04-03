@@ -29,7 +29,7 @@ namespace ClassLibraryBoekenWinkel
         private int Voorraad;
         private int Maxiumaantal;
         public static List<Boek> Boekenlijst;
-        public static List<Tijdschrift> Tijdschriften;
+        public static List<Tijdschrift> Tijdschriftenlijst;
         #endregion
 
         #region Getter and Setter for definitions
@@ -38,7 +38,7 @@ namespace ClassLibraryBoekenWinkel
         public Enum_Taal Taal { get; set; }
         public Afmeting Afmetingen { get; set; }
         public int Gewicht { get; set; }
-        public Decimal Prijs { get; set; }
+        public decimal Prijs { get; set; }
         #endregion
 
 
@@ -46,7 +46,14 @@ namespace ClassLibraryBoekenWinkel
 
         public Publicatie(string _Titel, string _Auteur, Enum_Taal _Taal, Afmeting _Afmeting, int _gewicht, decimal _prijs)
         {
-
+            this.titel = _Titel;
+            this.auteur = _Auteur;
+            this.taal = _Taal;
+            this.afmetingen = _Afmeting;
+            this.gewicht = _gewicht;
+            this.Prijs = _prijs;
+            Boekenlijst = new List<Boek>();
+            Tijdschriftenlijst = new List<Tijdschrift>();
         }
         public override string ToString()
         {
