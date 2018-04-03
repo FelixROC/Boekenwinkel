@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryBoekenWinkel
 {
-    class OrderItems
+    public class OrderItems
     {
         #region Definitions
         private List<Order> orderLijst;

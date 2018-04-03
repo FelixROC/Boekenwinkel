@@ -28,12 +28,6 @@ namespace ClassLibraryBoekenWinkel
         public DayOfWeek Publicatiedag { get; set; }
         #endregion
 
-        #region Tijdschriften
-        Tijdschrift t1 = new Tijdschrift( "Donald Duck", "auteur" , Enum_Taal.Nederlands , "Afmeting",5,10.50m,"issn",30,DayOfWeek.Monday,DayOfWeek.Friday);
-        Tijdschrift t2 = new Tijdschrift("Top Gear", 6, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Tijdschrift t3 = new Tijdschrift("Quest", 7, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        Tijdschrift t4 = new Tijdschrift("Discover", 8, 10, DayOfWeek.Monday, DayOfWeek.Friday);
-        #endregion
         #region Methods
         /// <summary>
         /// Initializes a new instance of the <see cref="Tijdschrift"/> class.
