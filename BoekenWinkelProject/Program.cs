@@ -12,6 +12,7 @@ namespace BoekenWinkelProject
     {
         static void Main(string[] args)
         {
+            Afmeting af = new Afmeting(2, 2, 2);
 
             Boek B1 = new Boek("Hercules", "Het oosten", Enum_Taal.Nederlands , af, 12, 25.50m, "de druk", "00000001", 20, 5);
             Boek B2 = new Boek("SneeuwWitje", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "00000002", 20, 5);
@@ -43,8 +44,9 @@ namespace BoekenWinkelProject
                 Console.WriteLine(t);
             }
 
+            Console.WriteLine("");
             Console.WriteLine("Hier een print van de boeken");
-            Console.WriteLine();
+            Console.WriteLine(Publicatie.Afdrukken);
             Console.ReadKey();
 
         }

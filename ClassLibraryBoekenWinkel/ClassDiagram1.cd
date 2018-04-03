@@ -10,11 +10,11 @@
       <Property Name="ObjOrderItems" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="ClassLibraryBoekenWinkel.Afmeting" Collapsed="true">
-    <Position X="7.75" Y="0.5" Width="1.5" />
+  <Class Name="ClassLibraryBoekenWinkel.Afmeting">
+    <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAQAAAABAAAAAAAAAQAAAAAAAAAA=</HashCode>
-      <FileName>Afmetingen.cs</FileName>
+      <FileName>Afmeting.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibraryBoekenWinkel.Order" Collapsed="true">
@@ -37,7 +37,7 @@
   <Class Name="ClassLibraryBoekenWinkel.Tijdschrift" Collapsed="true">
     <Position X="5" Y="3.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>AQABAAAAAQQAACAEAAAAAAIgAAAAAAAAABAAAAEABgI=</HashCode>
+      <HashCode>AQABAAAAAQQAACAEAAAAAAIgAAAAAAAAABAAABEABgI=</HashCode>
       <FileName>Tijdschrift.cs</FileName>
       <NewMemberFileName>Publicatie.cs</NewMemberFileName>
     </TypeIdentifier>
@@ -53,14 +53,14 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>EYABAAAAgSQAAAAkAAAAAAAgAAAAAAAAABAQAAAAFgA=</HashCode>
+      <HashCode>EYABAAAAASQCAAAkAAAAAAAgAAAAAAAAABAQABAAFgA=</HashCode>
       <FileName>Boek.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassLibraryBoekenWinkel.Publicatie" Collapsed="true">
     <Position X="5.25" Y="2.25" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>CAABBACACAQAAIAkAAAAAAAAAAAAIAAAABAWAAAQBgA=</HashCode>
+      <HashCode>CAABBACACAQAAIAkAAAAAAAAAAAAIAAAABAWABAQBgA=</HashCode>
       <FileName>Publicatie.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>

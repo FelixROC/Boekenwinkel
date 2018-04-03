@@ -22,9 +22,9 @@ namespace ClassLibraryBoekenWinkel
         /// <param name="_hoogte">The hoogte.</param>
         public Afmeting(int _lengte, int _breedte, int _hoogte)
         {
-            _lengte = Lengte;
-            _breedte = Breedte;
-            _hoogte = Hoogte;
+            Lengte = _lengte;
+            Breedte = _breedte;
+            Hoogte = _hoogte;
         }
         /// <summary>
         /// Initializes a new instance of the <see cref="Afmeting"/> class.
@@ -41,7 +41,8 @@ namespace ClassLibraryBoekenWinkel
         /// </returns>
         public override string ToString()
         {
-            return base.ToString();
+            return +Lengte+ " " +Breedte+ " " +Hoogte;
+                
         }
 
     }

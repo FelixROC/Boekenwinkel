@@ -8,7 +8,7 @@ namespace ClassLibraryBoekenWinkel
         private string titel;
         private string auteur;
         private Enum_Taal taal;
-        private Afmeting afmetingen;
+        private Afmeting afmeting;
         private decimal gewicht;
         private decimal prijs; 
         private string druk;
@@ -17,8 +17,6 @@ namespace ClassLibraryBoekenWinkel
         private int voorraad;
         private int maximumaantal;
         #endregion
-
-        Afmeting af = new Afmeting(2, 5, 2);
 
         #region Getter and Setter for definitions
         public string Druk { get; set; }
@@ -49,7 +47,7 @@ namespace ClassLibraryBoekenWinkel
             this.titel = _Titel;
             this.auteur = _Auteur;
             this.taal = _Taal;
-            this.afmetingen = _Afmeting;
+            this.afmeting = _Afmeting;
             this.gewicht = _gewicht;
             this.prijs = _prijs;
         }
@@ -63,7 +61,7 @@ namespace ClassLibraryBoekenWinkel
 
         public override string ToString()
         {
-            return titel+ " " + auteur + " " + taal + " " + afmetingen + " " + gewicht + " " + prijs + " " + druk + " " + iSBN + " " + maximumaantal + " " + miniumaantal;
+            return titel+ " " + auteur + " " + taal + " " + afmeting + " " + gewicht + " " + prijs + " " + druk + " " + iSBN + " " + maximumaantal + " " + miniumaantal;
         }
 
         public string Afdrukken()
