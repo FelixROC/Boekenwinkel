@@ -61,7 +61,7 @@ namespace ClassLibraryBoekenWinkel
 
         public override string ToString()
         {
-            return base.ToString();
+            return titel+ " " + auteur + " " + taal + " " + afmetingen + " " + gewicht + " " + prijs + " " + druk + " " + iSBN + " " + maximumaantal + " " + miniumaantal;
         }
 
         public string Afdrukken()

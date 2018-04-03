@@ -55,6 +55,7 @@ namespace ClassLibraryBoekenWinkel
             Boekenlijst = new List<Boek>();
             Tijdschriftenlijst = new List<Tijdschrift>();
         }
+
         public override string ToString()
         {
             return base.ToString();

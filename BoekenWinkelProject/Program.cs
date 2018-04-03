@@ -35,8 +35,18 @@ namespace BoekenWinkelProject
             BoekenWinkel.NieuwTijdschrift(T3);
             BoekenWinkel.NieuwTijdschrift(T4);
 
+            foreach(Boek b in Publicatie.Boekenlijst)
+            {
+                Console.WriteLine(b);
+            }
 
-            
+            foreach (Tijdschrift t in Publicatie.Tijdschriftenlijst)
+            {
+                Console.WriteLine(t);
+            }
+
+            Console.WriteLine("Hier een print van de boeken");
+            Console.WriteLine(Boek.)
 
             Console.ReadKey();
 
