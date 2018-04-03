@@ -75,7 +75,13 @@ namespace ClassLibraryBoekenWinkel
         }
         public string ToonAlleBoeken()
         {
-            throw new System.NotImplementedException();
+            int lijst = 0;
+            foreach (var _ in Publicatie.Boekenlijst)
+            {
+                lijst++;
+            }
+
+            return lijst.ToString();
 
         }
         public void LaasteBestellingAfhandelen()
