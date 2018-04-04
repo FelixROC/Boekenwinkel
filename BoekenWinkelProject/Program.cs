@@ -37,31 +37,32 @@ namespace BoekenWinkelProject
             BoekenWinkel.NieuwTijdschrift(T3);
             BoekenWinkel.NieuwTijdschrift(T4);
 
-            Console.WriteLine("Een Lijst van boeken de nu in het systeem zitten");
-            Console.WriteLine("");
-            foreach(Boek b in Publicatie.Boekenlijst)
-            {
-                Console.WriteLine(b);
-            }
-            Console.WriteLine("Het 5de boek is dubbel dus deze verwijderen we door de methode te gebruiken verwijderBoek");
-            Console.WriteLine("");
-            BoekenWinkel.VerwijderBoek(B5);
-            Console.WriteLine("Nu is het 5de boek weg");
-            Console.WriteLine("");
 
-            BoekenWinkel.ToonAlleBoeken();
+            Console.WriteLine("Wat wilt u Doen?");
+            Console.WriteLine(" Optie 1: Toon Alle boeken");
+            Console.WriteLine(" Optie 2: Toon Alle tijdschriften");
+            Console.WriteLine(" Optie 3: Boek toevoegen");
+            string option = Console.ReadLine();
 
-            Console.WriteLine("");
-            Console.WriteLine("Een Lijst van tijdschriften de nu in het systeem zitten");
-            Console.WriteLine("");
-            foreach (Tijdschrift t in Publicatie.Tijdschriftenlijst)
+            if (option == "1")
             {
-                Console.WriteLine(t);
+                BoekenWinkel.ToonAlleBoeken();
             }
-            
+            if (option == "2")
+            {
+                BoekenWinkel.ToonAlleTijdschriften();
+            }
+            if (option == "3")
+            {
+                Console.Clear();
+                Console.WriteLine("Wat is het titel van het boek");
+                string Titel = Console.ReadLine();
+                Console.WriteLine("Wie is de Auteur?");
+                string Auteur = Console.ReadLine();
+                Console.WriteLine("Wat is de taal van het boek?");
+            }
+
             Console.ReadKey();
-
-
 
         }
     }

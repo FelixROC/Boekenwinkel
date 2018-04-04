@@ -107,6 +107,7 @@ namespace ClassLibraryBoekenWinkel
         }
         public static void ToonAlleTijdschriften()
         {
+            Console.WriteLine("A list of current Tijdschriften in the system");
             foreach (Tijdschrift t in Publicatie.Tijdschriftenlijst)
             {
                 Console.WriteLine(t);
@@ -114,6 +115,7 @@ namespace ClassLibraryBoekenWinkel
         }
         public static void ToonAlleBoeken()
         {
+            Console.WriteLine("The list of current Boeken in the system");
             foreach (Boek b in Publicatie.Boekenlijst)
             {
                 Console.WriteLine(b);
