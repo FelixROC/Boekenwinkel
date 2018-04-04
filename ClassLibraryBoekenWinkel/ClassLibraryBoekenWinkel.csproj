@@ -43,6 +43,7 @@
     <Compile Include="Afmeting.cs" />
     <Compile Include="Boek.cs" />
     <Compile Include="BoekenWinkel.cs" />
+    <Compile Include="GenerateItemsBoekenWinkel.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

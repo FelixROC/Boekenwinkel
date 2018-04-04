@@ -5,13 +5,15 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace UnitTestProject2
 {
     [TestClass]
-    public class StringbuilderTest
+    public class StringbuilderTijdschriftTest
     {
         [TestMethod]
         public void TestMethod1()
         {
-            ///Afmeting Toevoegen
+
+            //Afmeting Toevoegen
             Afmeting af = new Afmeting(2, 2, 2);
+
             //Tijdschrift toevoegen
             Tijdschrift T1 = new Tijdschrift("Donald Duck", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "00000005", 30, DayOfWeek.Monday, DayOfWeek.Friday);
             BoekenWinkel.NieuwTijdschrift(T1);
@@ -22,6 +24,8 @@ namespace UnitTestProject2
             {
                 Console.WriteLine(t);
             }
+            //Hij laat correct alle waarden zien
+            //Geslaagd
         } 
     }
 }

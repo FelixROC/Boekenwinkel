@@ -11,14 +11,14 @@ namespace ClassLibraryBoekenWinkel
         #region Definitions
         private string titel;
         private string auteur;
-        private DateTime dagVanUitifte;
+        private DayOfWeek dagVanUitifte;
         private Enum_Taal taal;
         private Afmeting afmetingen;
         private decimal gewicht;
-        private int iSSN;
+        private string iSSN;
         private decimal prijs;
         private int bestelAantal;
-        private DateTime bestelDag;
+        private DayOfWeek bestelDag;
         #endregion
 
         #region Getter and Setter for definitions
@@ -42,16 +42,18 @@ namespace ClassLibraryBoekenWinkel
         /// <param name="AantalTijdschriftenBestellen">The aantal tijdschriften bestellen.</param>
         /// <param name="Besteldag">The besteldag.</param>
         /// <param name="Publicatiedag">The publicatiedag.</param>
-        public Tijdschrift(string _Titel, string _Auteur, Enum_Taal _Taal, Afmeting _Afmeting, int _gewicht, decimal _prijs , string _ISSN , int AantalTijdschriftenBestellen, DayOfWeek Besteldag , DayOfWeek Publicatiedag) : base(_Titel, _Auteur, _Taal, _Afmeting, _gewicht, _prijs)
+        public Tijdschrift(string _Titel, string _Auteur, Enum_Taal _Taal, Afmeting _Afmeting, int _gewicht, decimal _prijs , string _ISSN , int _AantalTijdschriftenBestellen, DayOfWeek Besteldag , DayOfWeek Publicatiedag) : base(_Titel, _Auteur, _Taal, _Afmeting, _gewicht, _prijs)
         {
 
             this.titel = _Titel;
             this.auteur = _Auteur;
             this.taal = _Taal;
             this.Afmetingen = _Afmeting;
-            this.gewicht = _prijs;
+            this.gewicht = _gewicht;
             this.prijs = _prijs;
+            this.iSSN = _ISSN;
             this.afmetingen = _Afmeting;
+            this.bestelAantal = _AantalTijdschriftenBestellen;
 
         }
         /// <summary>
@@ -62,39 +64,7 @@ namespace ClassLibraryBoekenWinkel
         /// </returns>
         public override string ToString()
         {
-            return titel + " " + auteur + " " + taal + " " + afmetingen + " " + gewicht + " " + prijs + " " + iSSN + " " + bestelAantal + " " + bestelDag + " " + Publicatiedag;
-        }
-
-        public string Afdrukken()
-        {
-            var stringbuilder = new StringBuilder()
-                .Append("Titel: ")
-                .Append(Titel)
-                .Append("\n")
-                .Append("Auteur: ")
-                .Append(Auteur)
-                .Append("\n")
-                .Append("Taal: ")
-                .Append(Taal)
-                .Append("\n")
-                .Append("De Afmeting: ")
-                .Append(Afmetingen.Breedte)
-                .Append("L " + Afmetingen.Lengte)
-                .Append("H " + Afmetingen.Hoogte)
-                .Append("\n")
-                .Append("ISSN: ")
-                .Append(iSSN)
-                .Append("\n")
-                .Append("Bestel Aantal: ")
-                .Append("\n")
-                .Append(bestelAantal)
-                .Append("\n")
-                .Append("Bestel Dag: ")
-                .Append(bestelDag)
-                .Append("Publicatie Dag")
-                .Append(Publicatiedag);
-
-            return stringbuilder.ToString();
+            return "Titel: " + titel + " Auteur: " + auteur + " Taal: " + taal + " Afmetingen: " + afmetingen + " Gewicht: " + gewicht + " De prijs: " + prijs + " ISSN: " + iSSN + " BestelAantal: " + bestelAantal + " Besteldag: " + bestelDag + " Publicatiedag: " + Publicatiedag;
         }
         #endregion
     }
