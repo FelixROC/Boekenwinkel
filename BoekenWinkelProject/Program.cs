@@ -15,16 +15,16 @@ namespace BoekenWinkelProject
 
             Afmeting af = new Afmeting(2, 2, 2);
 
-            Boek B1 = new Boek("Hercules", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "Drukkerij", "00000001", 20, 5);
-            Boek B2 = new Boek("SneeuwWitje", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "00000002", 20, 5);
-            Boek B3 = new Boek("Hunger games", "Het oosten", Enum_Taal.Engels, af, 12, 25.50m, "de druk", "00000003", 20, 5);
-            Boek B4 = new Boek("IT", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "00000004", 20, 5);
-            Boek B5 = new Boek("IT", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "00000004", 20, 5);
+            Boek B1 = new Boek("Hercules", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "Drukkerij", "9789461013330", 20, 5);
+            Boek B2 = new Boek("SneeuwWitje", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "9789464016730", 20, 5);
+            Boek B3 = new Boek("Hunger games", "Het oosten", Enum_Taal.Engels, af, 12, 25.50m, "de druk", "9789464010032", 20, 5);
+            Boek B4 = new Boek("IT", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "9787841213330", 20, 5);
+            Boek B5 = new Boek("IT", "Het oosten", Enum_Taal.Nederlands, af, 12, 25.50m, "de druk", "9789673215530", 20, 5);
 
-            Tijdschrift T1 = new Tijdschrift("Donald Duck", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "00000005", 30, DayOfWeek.Monday, DayOfWeek.Friday);
-            Tijdschrift T2 = new Tijdschrift("Top Gear", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "00000006", 30, DayOfWeek.Monday, DayOfWeek.Friday);
-            Tijdschrift T3 = new Tijdschrift("Quest", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "00000007", 30, DayOfWeek.Monday, DayOfWeek.Friday);
-            Tijdschrift T4 = new Tijdschrift("Discover", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "00000008", 30, DayOfWeek.Monday, DayOfWeek.Friday);
+            Tijdschrift T1 = new Tijdschrift("Donald Duck", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "5123_7813", 30, DayOfWeek.Monday, DayOfWeek.Friday);
+            Tijdschrift T2 = new Tijdschrift("Top Gear", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "5124_7843", 30, DayOfWeek.Monday, DayOfWeek.Friday);
+            Tijdschrift T3 = new Tijdschrift("Quest", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "5125_7893", 30, DayOfWeek.Monday, DayOfWeek.Friday);
+            Tijdschrift T4 = new Tijdschrift("Discover", "auteur", Enum_Taal.Nederlands, af, 5, 10.50m, "5126_7921", 30, DayOfWeek.Monday, DayOfWeek.Friday);
 
             BoekenWinkel.NieuwBoek(B1);
             BoekenWinkel.NieuwBoek(B2);
@@ -48,10 +48,9 @@ namespace BoekenWinkelProject
             BoekenWinkel.VerwijderBoek(B5);
             Console.WriteLine("Nu is het 5de boek weg");
             Console.WriteLine("");
-            foreach (Boek b in Publicatie.Boekenlijst)
-            {
-                Console.WriteLine(b);
-            }
+
+            BoekenWinkel.ToonAlleBoeken();
+
             Console.WriteLine("");
             Console.WriteLine("Een Lijst van tijdschriften de nu in het systeem zitten");
             Console.WriteLine("");
