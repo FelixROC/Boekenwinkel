@@ -42,6 +42,7 @@ namespace BoekenWinkelProject
             Console.WriteLine(" Optie 1: Toon Alle boeken");
             Console.WriteLine(" Optie 2: Toon Alle tijdschriften");
             Console.WriteLine(" Optie 3: Boek toevoegen");
+            Console.WriteLine(" Optie 4: Tijdschrift toevoegen");
             string option = Console.ReadLine();
 
             if (option == "1")
@@ -79,6 +80,30 @@ namespace BoekenWinkelProject
 
                 Boek B6 = new Boek(Titel, Auteur, Taal, af, Gewicht, Prijs, Drukkerij, ISBN, MaximumAantal, minimumAantal);
 
+            }
+            if (option == "4")
+            {
+                Console.Clear();
+                Console.WriteLine("Wat is de titel van het tijdschrift");
+                string Titel = Console.ReadLine();
+                Console.WriteLine("Wie is de Auteur van het tijdschrift?");
+                string Auteur = Console.ReadLine();
+                Console.WriteLine("Wat is de taal van het tijdschrift?");
+                string taal = Console.ReadLine();
+                Console.WriteLine("Wat is de afmeting van het tijdschrift?");
+                string afmeting = Console.ReadLine();
+                Console.WriteLine("Wat is het gewicht van het tijdschrift?");
+                string gewicht = Console.ReadLine();
+                Console.WriteLine("Wat is de prijs van het tijdschrift?");
+                string prijs = Console.ReadLine();
+                Console.WriteLine("Wat is de ISSN code van het tijdschrift?");
+                string ISSN = Console.ReadLine();
+                Console.WriteLine("Hoeveel tijdschriften wil u bestellen");
+                string bestellen = Console.ReadLine();
+                Console.WriteLine("op welke dag wilt u de tijdschriften bestellen");
+                string besteldag = Console.ReadLine();
+                Console.WriteLine("op welke dag wilt u de tijdschriften publiceren");
+                string publicatiedag = Console.ReadLine();
             }
 
             Console.ReadKey();

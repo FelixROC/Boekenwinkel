@@ -1,6 +1,6 @@
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\b\ClassLibraryBoekenWinkel\bin\Release\ClassLibraryBoekenWinkel.dll
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\b\ClassLibraryBoekenWinkel\bin\Release\ClassLibraryBoekenWinkel.pdb
 C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\i\ClassLibraryBoekenWinkel\Release\ClassLibraryBoekenWinkel.csproj.CoreCompileInputs.cache
-C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\b\ClassLibraryBoekenWinkel\bin\Debug\ClassLibraryBoekenWinkel.dll
-C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\b\ClassLibraryBoekenWinkel\bin\Debug\ClassLibraryBoekenWinkel.pdb
 C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\i\ClassLibraryBoekenWinkel\Release\ClassLibraryBoekenWinkel.csproj.CopyComplete
 C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\i\ClassLibraryBoekenWinkel\Release\ClassLibraryBoekenWinkel.dll
 C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\.vs\BoekenWinkelProject\lut\0\i\ClassLibraryBoekenWinkel\Release\ClassLibraryBoekenWinkel.pdb
