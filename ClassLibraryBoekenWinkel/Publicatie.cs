@@ -6,15 +6,7 @@ using System.Threading.Tasks;
 using ClassLibraryBoekenWinkel;
 
 namespace ClassLibraryBoekenWinkel
-{
-
-    public enum Enum_Taal
-    {
-        Nederlands,
-        Engels,
-        Deutsch
-    }
-
+{ 
     public abstract class Publicatie
     {
 
