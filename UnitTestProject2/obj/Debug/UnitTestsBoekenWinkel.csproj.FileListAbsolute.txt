@@ -5,3 +5,12 @@ C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\bin\Debug\Class
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\obj\Debug\UnitTestProject2.dll
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\obj\Debug\UnitTestProject2.pdb
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\UnitTestProject2\obj\Debug\UnitTestsBoekenWinkel.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\UnitTestProject2\bin\Debug\UnitTestProject2.dll
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\UnitTestProject2\bin\Debug\UnitTestProject2.pdb
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\UnitTestProject2\bin\Debug\ClassLibraryBoekenWinkel.dll
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\UnitTestProject2\bin\Debug\ClassLibraryBoekenWinkel.pdb
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\UnitTestProject2\obj\Debug\UnitTestsBoekenWinkel.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\UnitTestProject2\obj\Debug\UnitTestsBoekenWinkel.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\UnitTestProject2\obj\Debug\UnitTestsBoekenWinkel.csproj.CopyComplete
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\UnitTestProject2\obj\Debug\UnitTestProject2.dll
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\UnitTestProject2\obj\Debug\UnitTestProject2.pdb

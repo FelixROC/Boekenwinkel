@@ -6,3 +6,13 @@ C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\bin\Release\
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\obj\Release\BoekenWinkelProject.csprojResolveAssemblyReference.cache
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\obj\Release\BoekenWinkelProject.exe
 C:\Users\Luuk Hamming\Source\Repos\Boekenwinkel\BoekenWinkelProject\obj\Release\BoekenWinkelProject.pdb
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\BoekenWinkelProject\bin\Release\BoekenWinkelProject.exe.config
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\BoekenWinkelProject\bin\Release\BoekenWinkelProject.exe
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\BoekenWinkelProject\bin\Release\BoekenWinkelProject.pdb
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\BoekenWinkelProject\bin\Release\ClassLibraryBoekenWinkel.dll
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\BoekenWinkelProject\bin\Release\ClassLibraryBoekenWinkel.pdb
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\BoekenWinkelProject\obj\Release\BoekenWinkelProject.csprojResolveAssemblyReference.cache
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\BoekenWinkelProject\obj\Release\BoekenWinkelProject.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\BoekenWinkelProject\obj\Release\BoekenWinkelProject.csproj.CopyComplete
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\BoekenWinkelProject\obj\Release\BoekenWinkelProject.exe
+C:\Users\Gebruiker\Source\Repos\Boekenwinkel_project\BoekenWinkelProject\obj\Release\BoekenWinkelProject.pdb
