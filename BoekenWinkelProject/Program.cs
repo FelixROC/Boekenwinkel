@@ -59,7 +59,26 @@ namespace BoekenWinkelProject
                 string Titel = Console.ReadLine();
                 Console.WriteLine("Wie is de Auteur?");
                 string Auteur = Console.ReadLine();
-                Console.WriteLine("Wat is de taal van het boek?");
+                Console.WriteLine("Wat is de taal van het boek? Kies uit Nederlands, Engels of Duits");
+                string Taal = Console.ReadLine();
+                Console.WriteLine("Wat is het gewicht in gram?");
+                string Gewicht = Console.ReadLine();
+                Console.WriteLine("Wat is de prijs in Decimaal? (Met een ,)");
+                string Prijs = Console.ReadLine();
+                Console.WriteLine("Wat is de drukkerij");
+                string Drukkerij = Console.ReadLine();
+                Console.WriteLine("Wat is de ISBN (DIt moet een 13 getallig cijfer worden en moet beginnen met 978) Bijvoorbeeld: 9789461013330");
+                string ISBN = Console.ReadLine();
+                Console.WriteLine("Wat is het minimum aantal van de boeken die er nodig zijn?");
+                string minimumAantal = Console.ReadLine();
+                Console.WriteLine("Wat is het maximumaantal van de boeken?");
+                string MaximumAantal = Console.ReadLine();
+
+                int i = 6;
+                int gewicht = Int32.TryParse(Gewicht);
+
+                Boek B6 = new Boek(Titel, Auteur, Taal, af, Gewicht, Prijs, Drukkerij, ISBN, MaximumAantal, minimumAantal);
+
             }
 
             Console.ReadKey();
