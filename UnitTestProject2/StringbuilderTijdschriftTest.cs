@@ -8,7 +8,7 @@ namespace UnitTestProject2
     public class StringbuilderTijdschriftTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestToevoegenUitlezenTijdschrift()
         {
 
             //Afmeting Toevoegen

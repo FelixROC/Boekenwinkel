@@ -8,7 +8,7 @@ namespace UnitTestProject2
     public class BoekTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestToevoegenVerwijderenBoek()
         {
             //Afmetingen toevoegen
             Afmeting af = new Afmeting(2, 2, 2);

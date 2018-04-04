@@ -8,7 +8,7 @@ namespace UnitTestProject2
     public class StringbuilderBoekTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestToevoegenUitlezenBoek()
         {
             //Afmeting Toevoegen
             Afmeting af = new Afmeting(2, 2, 2);

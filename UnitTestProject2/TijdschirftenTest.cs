@@ -8,7 +8,7 @@ namespace UnitTestProject2
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestToevoegenVerwijderenTijdschrift1()
         {
             //Afmetingen toevoegen
             Afmeting af = new Afmeting(2, 2, 2);
