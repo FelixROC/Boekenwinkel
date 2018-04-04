@@ -105,20 +105,19 @@ namespace ClassLibraryBoekenWinkel
                 Console.WriteLine("There a no 2 tijdschriften with the same data that you have submitted");
             }
         }
-        public string ToonAlleTijdschriften()
+        public static void ToonAlleTijdschriften()
         {
-            throw new System.NotImplementedException();
-        }
-        public string ToonAlleBoeken()
-        {
-            int lijst = 0;
-            foreach (var _ in Publicatie.Boekenlijst)
+            foreach (Tijdschrift t in Publicatie.Tijdschriftenlijst)
             {
-                lijst++;
+                Console.WriteLine(t);
             }
-
-            return lijst.ToString();
-
+        }
+        public static void ToonAlleBoeken()
+        {
+            foreach (Boek b in Publicatie.Boekenlijst)
+            {
+                Console.WriteLine(b);
+            }
         }
         public void LaasteBestellingAfhandelen()
         {

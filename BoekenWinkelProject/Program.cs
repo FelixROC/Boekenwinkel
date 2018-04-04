@@ -48,10 +48,9 @@ namespace BoekenWinkelProject
             BoekenWinkel.VerwijderBoek(B5);
             Console.WriteLine("Nu is het 5de boek weg");
             Console.WriteLine("");
-            foreach (Boek b in Publicatie.Boekenlijst)
-            {
-                Console.WriteLine(b);
-            }
+
+            BoekenWinkel.ToonAlleBoeken();
+
             Console.WriteLine("");
             Console.WriteLine("Een Lijst van tijdschriften de nu in het systeem zitten");
             Console.WriteLine("");
